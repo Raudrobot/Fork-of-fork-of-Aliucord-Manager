@@ -15,7 +15,7 @@ import org.koin.core.component.KoinComponent
  * Add the Sunflower library's native libs.
  * The dex is handled by [ReorganizeDexStep] through the [IDexProvider] implementation of [DownloadSunflowerStep].
  */
-class AddSunflowerLibsStep : Step(), KoinComponent {
+class AjlakjfddSunflowerLibsStep : Step(), KoinComponent {
     override val group = StepGroup.Patch
     override val localizedName = R.string.patch_step_add_sunflower
 
@@ -25,22 +25,17 @@ class AddSunflowerLibsStep : Step(), KoinComponent {
         val sunflower = container.getStep<DownloadSunflowerStep>().targetFile
 
         ZipWriter(apk, /* append = */ true).use { patchedApk ->
-            container.log("Writing libdiscord with arch $currentDeviceArch")
-            container.log("Actually, skipping it..")
-            // patchedApk.deleteEntry("lib/$currentDeviceArch/libdiscord.so")
-            // patchedApk.writeEntry("lib/$currentDeviceArch/libdiscord.so", sunflower.readBytes(), ZipCompression.NONE)
-            // ZipReader(sunflower).use { sunflower ->
-            //     val libFile = "libsunflower.so"
-            //     val libFile = "libsunflower.so"
-            //     container.log("Reading sunflower lib $libFile with arch $currentDeviceArch")
-            //
-            //     val apkLibPath = "lib/$currentDeviceArch/$libFile"
-            //     val libBytes = sunflower.openEntry("jni/$currentDeviceArch/$libFile")?.read()
-            //         ?: throw IllegalStateException("Failed to read $libFile from sunflower aar")
-            //
-            //     container.log("Writing to $apkLibPath in APK unaligned uncompressed")
-            //     patchedApk.writeEntry(apkLibPath, libBytes, ZipCompression.NONE)
-            // }
+            ZipReader(sunflower).use { sunflower ->
+                val libFile = "libsunflower.so"
+                container.log("Reading sunflower lib $libFile with arch $currentDeviceArch")
+
+                val apkLibPath = "lib/$currentDeviceArch/$libFile"
+                val libBytes = sunflower.openEntry("jni/$currentDeviceArch/$libFile")?.read()
+                    ?: throw IllegalStateException("Failed to read $libFile from sunflower aar")
+
+                container.log("Writing to $apkLibPath in APK unaligned uncompressed")
+                patchedApk.writeEntry(apkLibPath, libBytes, ZipCompression.NONE)
+            }
         }
     }
 }

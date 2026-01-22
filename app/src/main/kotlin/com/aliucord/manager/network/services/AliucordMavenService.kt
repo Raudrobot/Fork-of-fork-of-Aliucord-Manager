@@ -37,6 +37,9 @@ class AliucordMavenService(private val http: HttpService) {
             "${BuildConfig.MAVEN_URL}/com/aliucord/Aliuhook/$version/Aliuhook-$version.aar"
 
         fun getSunflowerUrl(version: String): String =
-            "http://[fd0d::3]:8080/moe/lava/sunflower/$version/sunflower-$version.aar"
+            "http://192.168.1.201:8080/moe/lava/sunflower/$version/sunflower-$version.aar"
+
+        fun getLibDiscordUrl(): String =
+            "http://192.168.1.201:8080/libdiscord.so"
     }
 }

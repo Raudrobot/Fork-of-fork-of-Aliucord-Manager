@@ -121,6 +121,9 @@ class PathManager(
         .resolve("sunflower").apply { mkdirs() }
         .resolve("$version.aar")
 
+    fun cachedNewLibDiscord() = patchingDownloadDir
+        .resolve("libdiscord.so")
+
     /**
      * Resolve a specific path for a versioned smali patches archive.
      */

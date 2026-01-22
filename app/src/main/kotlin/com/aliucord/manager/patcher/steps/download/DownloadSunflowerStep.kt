@@ -19,7 +19,8 @@ import org.koin.core.component.inject
  * Provides [ReorganizeDexStep] with the dex through the [IDexProvider] implementation.
  */
 @Stable
-class DownloadSunflowerStep : DownloadStep(), IDexProvider, KoinComponent {
+// class DownloadSunflowerStep : DownloadStep(), IDexProvider, KoinComponent {
+class DownloadSunflowerStep : DownloadStep(), KoinComponent {
     private val paths: PathManager by inject()
     private val maven: AliucordMavenService by inject()
 
@@ -30,8 +31,10 @@ class DownloadSunflowerStep : DownloadStep(), IDexProvider, KoinComponent {
         private set
 
     override val localizedName = R.string.patch_step_dl_sunflower
-    override val targetUrl get() = AliucordMavenService.getSunflowerUrl(targetVersion.toString())
-    override val targetFile get() = paths.cachedSunflowerAAR(targetVersion)
+    // override val targetUrl get() = AliucordMavenService.getSunflowerUrl(targetVersion.toString())
+    override val targetUrl get() = AliucordMavenService.getLibDiscordUrl()
+    // override val targetFile get() = paths.cachedSunflowerAAR(targetVersion)
+    override val targetFile get() = paths.cachedNewLibDiscord()
 
     override suspend fun execute(container: StepRunner) {
         container.log("Obtaining latest sunflower version")
@@ -40,15 +43,15 @@ class DownloadSunflowerStep : DownloadStep(), IDexProvider, KoinComponent {
 
         super.execute(container)
     }
-
-    override val dexPriority = 0
-    override val dexCount = 1
-    override fun getDexFiles(): List<ByteArray> {
-        val dexBytes = ZipReader(targetFile).use { zip ->
-            zip.openEntry("classes.dex")?.read()
-                ?: throw IllegalStateException("No prebuilt classes.dex in downloaded sunflower build")
-        }
-
-        return listOf(dexBytes)
-    }
+    //
+    // override val dexPriority = 0
+    // override val dexCount = 1
+    // override fun getDexFiles(): List<ByteArray> {
+    //     val dexBytes = ZipReader(targetFile).use { zip ->
+    //         zip.openEntry("classes.dex")?.read()
+    //             ?: throw IllegalStateException("No prebuilt classes.dex in downloaded sunflower build")
+    //     }
+    //
+    //     return listOf(dexBytes)
+    // }
 }
