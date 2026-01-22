@@ -115,6 +115,13 @@ class PathManager(
         .resolve("$version.aar")
 
     /**
+     * Resolve a specific path for a versioned cached Sunflower build
+     */
+    fun cachedSunflowerAAR(version: SemVer) = patchingDownloadDir
+        .resolve("sunflower").apply { mkdirs() }
+        .resolve("$version.aar")
+
+    /**
      * Resolve a specific path for a versioned smali patches archive.
      */
     fun cachedSmaliPatches(version: SemVer, custom: Boolean = false): File {

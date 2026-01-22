@@ -21,6 +21,7 @@ class KotlinPatchRunner(options: PatchOptions) : StepRunner() {
         DownloadDiscordStep(),
         DownloadInjectorStep(),
         DownloadAliuhookStep(),
+        DownloadSunflowerStep(),
         DownloadKotlinStep(),
         DownloadPatchesStep(),
         CopyDependenciesStep(),
@@ -31,6 +32,7 @@ class KotlinPatchRunner(options: PatchOptions) : StepRunner() {
         PatchManifestStep(options),
         ReorganizeDexStep(),
         AddAliuhookLibsStep(),
+        AddSunflowerLibsStep(),
         SaveMetadataStep(options),
 
         // Install
