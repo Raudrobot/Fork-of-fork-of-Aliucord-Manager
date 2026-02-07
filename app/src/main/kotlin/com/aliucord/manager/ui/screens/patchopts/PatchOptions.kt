@@ -44,6 +44,11 @@ data class PatchOptions(
      * A custom smali patches bundle that was used rather than the latest.
      */
     val customPatches: PatchComponent? = null,
+
+    /**
+     * Whether the app should launch immediately upon patching success.
+     */
+    val launchAfterPatch: Boolean = false,
 ) : Parcelable {
     @Immutable
     @Parcelize

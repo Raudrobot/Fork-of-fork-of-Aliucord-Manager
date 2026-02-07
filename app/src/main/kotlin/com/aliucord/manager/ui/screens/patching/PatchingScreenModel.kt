@@ -168,7 +168,9 @@ class PatchingScreenModel(
                 // At this point, the installation has successfully completed
                 else {
                     mutableState.value = PatchingScreenState.Success
-
+                    if (options.launchAfterPatch) {
+                        launchApp()
+                    }
                     null
                 }
             }

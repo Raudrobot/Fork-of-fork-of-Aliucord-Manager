@@ -5,6 +5,7 @@
 
 package com.aliucord.manager
 
+import android.R.attr.type
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -25,7 +26,9 @@ import com.aliucord.manager.MainActivity.Companion.EXTRA_COMPONENT_TYPE
 import com.aliucord.manager.MainActivity.Companion.EXTRA_FILE_PATH
 import com.aliucord.manager.MainActivity.Companion.EXTRA_PACKAGE_NAME
 import com.aliucord.manager.manager.*
+import com.aliucord.manager.network.utils.SemVer
 import com.aliucord.manager.patcher.InstallMetadata
+import com.aliucord.manager.ui.screens.componentopts.PatchComponent
 import com.aliucord.manager.ui.screens.home.HomeScreen
 import com.aliucord.manager.ui.screens.patching.PatchingScreen
 import com.aliucord.manager.ui.screens.patchopts.PatchOptions
@@ -43,6 +46,7 @@ import kotlinx.serialization.json.decodeFromStream
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import java.io.File
+import kotlin.time.Instant
 
 class MainActivity : ComponentActivity() {
     private val permissions: PermissionsModel by viewModel()
@@ -157,9 +161,9 @@ class MainActivity : ComponentActivity() {
                     return@launchBlock
                 }
 
-                val targetDir = when (componentType) {
-                    "injector" -> paths.customInjectorsDir
-                    "patches" -> paths.customPatchesDir
+                val (targetDir, type) = when (componentType) {
+                    "injector" -> paths.customInjectorsDir to PatchComponent.Type.Injector
+                    "patches" -> paths.customPatchesDir to PatchComponent.Type.Patches
                     else -> {
                         Log.w(BuildConfig.TAG, "Extra $EXTRA_COMPONENT_TYPE is not a valid value!")
                         mainThread { showToast(R.string.intent_import_component_failure) }
@@ -176,6 +180,19 @@ class MainActivity : ComponentActivity() {
                 }
 
                 mainThread { showToast(R.string.intent_import_component_success, file.name) }
+
+                val componentNameRegex = """^(\d+)_(\d+\.\d+.\d+)\.\w+$""".toRegex()
+
+                val comp = componentNameRegex.find(file.name)?.let {
+                    val (_, timestamp, version) = it.groupValues
+
+                    PatchComponent(
+                        type = type,
+                        version = SemVer.parse(version),
+                        timestamp = Instant.fromEpochMilliseconds(timestamp.toLong()),
+                    )
+                }
+                navigator.push(handleReinstall("com.aliucord", comp))
             }
 
             else -> {
@@ -184,7 +201,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    private suspend fun handleReinstall(packageName: String): Screen {
+    private suspend fun handleReinstall(packageName: String, customComponent: PatchComponent? = null): Screen {
         val metadata = try {
             val applicationInfo = packageManager.getApplicationInfo(packageName, 0)
             val metadataFile = ZipReader(applicationInfo.publicSourceDir)
@@ -197,8 +214,16 @@ class MainActivity : ComponentActivity() {
             null
         }
 
-        val patchOptions = metadata?.options
+        var patchOptions = metadata?.options
             ?: PatchOptions.Default.copy(packageName = packageName)
+
+        if (customComponent != null) {
+            patchOptions = when (customComponent.type) {
+                PatchComponent.Type.Injector -> patchOptions.copy(customInjector = customComponent)
+                PatchComponent.Type.Patches -> patchOptions.copy(customPatches = customComponent)
+            }
+            patchOptions = patchOptions.copy(launchAfterPatch = true)
+        }
 
         return PatchingScreen(patchOptions)
     }
