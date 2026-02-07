@@ -33,6 +33,11 @@ class PathManager(
     val legacyKeystoreFile = aliucordDir.resolve("ks.keystore")
 
     /**
+     * The new voice library file
+     */
+    val sunflowerLibFile = aliucordDir.resolve("sunflower.so")
+
+    /**
      * The new global keystore used for signing APKs stored in Manager's internal storage.
      */
     val keystoreFile = context.filesDir.resolve("aliucord.keystore")
