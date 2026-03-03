@@ -38,6 +38,11 @@ class PathManager(
     val sunflowerLibFile = aliucordDir.resolve("sunflower.so")
 
     /**
+     * The Aliucord core to bundle with built APKs
+     */
+    val bundledCoreFile = aliucordDir.resolve("Aliucord.bundle.zip")
+
+    /**
      * The new global keystore used for signing APKs stored in Manager's internal storage.
      */
     val keystoreFile = context.filesDir.resolve("aliucord.keystore")

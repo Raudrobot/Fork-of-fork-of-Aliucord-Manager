@@ -35,6 +35,7 @@ class KotlinPatchRunner(
         ReorganizeDexStep(),
         AddAliuhookLibsStep(),
         AddSunflowerStep(),
+        AddBundledAliucordStep(),
         SaveMetadataStep(options),
 
         // Install
