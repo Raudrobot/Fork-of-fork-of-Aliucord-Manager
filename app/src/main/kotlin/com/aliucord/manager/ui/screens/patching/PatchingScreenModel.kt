@@ -77,6 +77,10 @@ class PatchingScreenModel(
         if (state.value !is PatchingScreenState.Success)
             return
 
+        if (options.launchAfterPatch) {
+            mutableState.value = PatchingScreenState.CloseScreen
+        }
+
         val launchIntent = application.packageManager
             .getLaunchIntentForPackage(options.packageName)
 

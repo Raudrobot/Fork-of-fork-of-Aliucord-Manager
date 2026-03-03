@@ -192,7 +192,32 @@ class MainActivity : ComponentActivity() {
                         timestamp = Instant.fromEpochMilliseconds(timestamp.toLong()),
                     )
                 }
-                navigator.push(handleReinstall("com.aliucord", comp))
+
+                val inj = comp.takeIf { type == PatchComponent.Type.Injector }
+                    ?: paths.customInjectors().mapNotNull { file ->
+                        val match = componentNameRegex.find(file.name)
+                            ?: return@mapNotNull null
+                        val (_, timestamp, version) = match.groupValues
+
+                        PatchComponent(
+                            type = PatchComponent.Type.Injector,
+                            version = SemVer.parse(version),
+                            timestamp = Instant.fromEpochMilliseconds(timestamp.toLong()),
+                        )
+                    }.maxBy { it.timestamp }
+                val pat = comp.takeIf { type == PatchComponent.Type.Patches }
+                    ?: paths.customSmaliPatches().mapNotNull { file ->
+                        val match = componentNameRegex.find(file.name)
+                            ?: return@mapNotNull null
+                        val (_, timestamp, version) = match.groupValues
+
+                        PatchComponent(
+                            type = PatchComponent.Type.Patches,
+                            version = SemVer.parse(version),
+                            timestamp = Instant.fromEpochMilliseconds(timestamp.toLong()),
+                        )
+                    }.maxBy { it.timestamp }
+                navigator.push(handleReinstall("com.aliucord", inj, pat))
             }
 
             else -> {
@@ -201,7 +226,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    private suspend fun handleReinstall(packageName: String, customComponent: PatchComponent? = null): Screen {
+    private suspend fun handleReinstall(packageName: String, injector: PatchComponent? = null, patches: PatchComponent? = null): Screen {
         val metadata = try {
             val applicationInfo = packageManager.getApplicationInfo(packageName, 0)
             val metadataFile = ZipReader(applicationInfo.publicSourceDir)
@@ -217,13 +242,11 @@ class MainActivity : ComponentActivity() {
         var patchOptions = metadata?.options
             ?: PatchOptions.Default.copy(packageName = packageName)
 
-        if (customComponent != null) {
-            patchOptions = when (customComponent.type) {
-                PatchComponent.Type.Injector -> patchOptions.copy(customInjector = customComponent)
-                PatchComponent.Type.Patches -> patchOptions.copy(customPatches = customComponent)
-            }
-            patchOptions = patchOptions.copy(launchAfterPatch = true)
-        }
+        patchOptions = patchOptions.copy(
+            customInjector = injector ?: patchOptions.customInjector,
+            customPatches = patches ?: patchOptions.customPatches,
+            launchAfterPatch = true,
+        )
 
         return PatchingScreen(patchOptions)
     }
