@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.patching
+package com.aliucord.manager.voice.ui.screens.patching
 
 import android.annotation.SuppressLint
 import android.app.Application
@@ -7,18 +7,18 @@ import androidx.annotation.StringRes
 import androidx.compose.runtime.*
 import cafe.adriel.voyager.core.model.StateScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
-import com.aliucord.manager.BuildConfig
-import com.aliucord.manager.R
-import com.aliucord.manager.manager.*
-import com.aliucord.manager.patcher.KotlinPatchRunner
-import com.aliucord.manager.patcher.StepRunner
-import com.aliucord.manager.patcher.steps.StepGroup
-import com.aliucord.manager.patcher.steps.base.*
-import com.aliucord.manager.patcher.steps.install.InstallStep
-import com.aliucord.manager.patcher.util.InsufficientStorageException
-import com.aliucord.manager.ui.screens.patchopts.PatchOptions
-import com.aliucord.manager.ui.util.toUnsafeImmutable
-import com.aliucord.manager.util.*
+import com.aliucord.manager.voice.BuildConfig
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.manager.*
+import com.aliucord.manager.voice.patcher.KotlinPatchRunner
+import com.aliucord.manager.voice.patcher.StepRunner
+import com.aliucord.manager.voice.patcher.steps.StepGroup
+import com.aliucord.manager.voice.patcher.steps.base.*
+import com.aliucord.manager.voice.patcher.steps.install.InstallStep
+import com.aliucord.manager.voice.patcher.util.InsufficientStorageException
+import com.aliucord.manager.voice.ui.screens.patchopts.PatchOptions
+import com.aliucord.manager.voice.ui.util.toUnsafeImmutable
+import com.aliucord.manager.voice.util.*
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.ImmutableMap
 import kotlinx.coroutines.*

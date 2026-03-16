@@ -1,11 +1,11 @@
-package com.aliucord.manager.ui.screens.log.components
+package com.aliucord.manager.voice.ui.screens.log.components
 
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.components.BackButton
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.components.BackButton
 
 @Composable
 fun LogAppBar(

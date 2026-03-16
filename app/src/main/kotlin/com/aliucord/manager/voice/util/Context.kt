@@ -1,4 +1,4 @@
-package com.aliucord.manager.util
+package com.aliucord.manager.voice.util
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -17,7 +17,7 @@ import androidx.annotation.AnyRes
 import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
 import androidx.core.content.getSystemService
-import com.aliucord.manager.*
+import com.aliucord.manager.voice.*
 import com.google.android.gms.safetynet.SafetyNet
 import java.io.File
 import java.io.InputStream

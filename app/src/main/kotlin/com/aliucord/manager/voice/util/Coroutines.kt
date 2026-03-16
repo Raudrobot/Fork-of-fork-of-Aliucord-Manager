@@ -1,6 +1,6 @@
 @file:Suppress("NOTHING_TO_INLINE")
 
-package com.aliucord.manager.util
+package com.aliucord.manager.voice.util
 
 import kotlinx.coroutines.*
 import kotlin.coroutines.CoroutineContext

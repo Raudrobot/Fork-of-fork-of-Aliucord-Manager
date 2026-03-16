@@ -3,10 +3,10 @@
  * Licensed under the Open Software License version 3.0
  */
 
-package com.aliucord.manager.network.models
+package com.aliucord.manager.voice.network.models
 
-import com.aliucord.manager.network.utils.SemVer
-import com.aliucord.manager.util.serialization.IntAsStringSerializer
+import com.aliucord.manager.voice.network.utils.SemVer
+import com.aliucord.manager.voice.util.serialization.IntAsStringSerializer
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

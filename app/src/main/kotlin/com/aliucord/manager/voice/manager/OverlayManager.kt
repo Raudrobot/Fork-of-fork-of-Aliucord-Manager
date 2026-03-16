@@ -1,4 +1,4 @@
-package com.aliucord.manager.manager
+package com.aliucord.manager.voice.manager
 
 import androidx.compose.runtime.*
 import kotlinx.coroutines.*

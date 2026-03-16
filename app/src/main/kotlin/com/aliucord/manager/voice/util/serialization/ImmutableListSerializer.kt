@@ -1,6 +1,6 @@
-package com.aliucord.manager.util.serialization
+package com.aliucord.manager.voice.util.serialization
 
-import com.aliucord.manager.ui.util.toUnsafeImmutable
+import com.aliucord.manager.voice.ui.util.toUnsafeImmutable
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.SealedSerializationApi

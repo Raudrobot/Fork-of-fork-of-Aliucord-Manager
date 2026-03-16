@@ -1,4 +1,4 @@
-package com.aliucord.manager.di
+package com.aliucord.manager.voice.di
 
 import android.app.Activity
 import android.app.Application

@@ -1,4 +1,4 @@
-package com.aliucord.manager.installers
+package com.aliucord.manager.voice.installers
 
 import java.io.File
 

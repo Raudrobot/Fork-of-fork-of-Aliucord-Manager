@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.home
+package com.aliucord.manager.voice.ui.screens.home
 
 import androidx.compose.runtime.Immutable
 import kotlinx.collections.immutable.ImmutableList

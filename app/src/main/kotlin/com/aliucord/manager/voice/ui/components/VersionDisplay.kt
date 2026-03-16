@@ -1,11 +1,11 @@
-package com.aliucord.manager.ui.components
+package com.aliucord.manager.voice.ui.components
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.*
-import com.aliucord.manager.ui.util.DiscordVersion
+import com.aliucord.manager.voice.ui.util.DiscordVersion
 
 @Composable
 fun VersionDisplay(

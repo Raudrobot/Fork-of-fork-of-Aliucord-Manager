@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.previews
+package com.aliucord.manager.voice.ui.previews
 
 import android.content.res.Configuration
 import androidx.compose.material3.MaterialTheme
@@ -8,10 +8,10 @@ import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.*
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.screens.patching.components.TextBanner
-import com.aliucord.manager.ui.theme.ManagerTheme
-import com.aliucord.manager.ui.theme.customColors
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.screens.patching.components.TextBanner
+import com.aliucord.manager.voice.ui.theme.ManagerTheme
+import com.aliucord.manager.voice.ui.theme.customColors
 
 @Composable
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_YES)

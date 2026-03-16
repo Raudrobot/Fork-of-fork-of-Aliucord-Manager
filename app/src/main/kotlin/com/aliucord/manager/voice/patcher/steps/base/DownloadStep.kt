@@ -1,16 +1,16 @@
-package com.aliucord.manager.patcher.steps.base
+package com.aliucord.manager.voice.patcher.steps.base
 
 import android.content.Context
 import android.util.Log
 import android.widget.Toast
 import androidx.annotation.CallSuper
 import androidx.compose.runtime.Stable
-import com.aliucord.manager.R
-import com.aliucord.manager.manager.download.IDownloadManager
-import com.aliucord.manager.manager.download.KtorDownloadManager
-import com.aliucord.manager.patcher.StepRunner
-import com.aliucord.manager.patcher.steps.StepGroup
-import com.aliucord.manager.util.*
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.manager.download.IDownloadManager
+import com.aliucord.manager.voice.manager.download.KtorDownloadManager
+import com.aliucord.manager.voice.patcher.StepRunner
+import com.aliucord.manager.voice.patcher.steps.StepGroup
+import com.aliucord.manager.voice.util.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.koin.core.component.KoinComponent

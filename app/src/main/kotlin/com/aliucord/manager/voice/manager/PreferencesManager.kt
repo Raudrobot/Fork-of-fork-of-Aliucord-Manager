@@ -1,9 +1,9 @@
-package com.aliucord.manager.manager
+package com.aliucord.manager.voice.manager
 
 import android.content.SharedPreferences
 import androidx.compose.runtime.Stable
-import com.aliucord.manager.manager.base.BasePreferenceManager
-import com.aliucord.manager.ui.theme.Theme
+import com.aliucord.manager.voice.manager.base.BasePreferenceManager
+import com.aliucord.manager.voice.ui.theme.Theme
 
 @Stable
 class PreferencesManager(preferences: SharedPreferences) : BasePreferenceManager(preferences) {

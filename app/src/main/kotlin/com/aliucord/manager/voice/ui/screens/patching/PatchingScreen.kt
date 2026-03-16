@@ -3,7 +3,7 @@
  * Licensed under the Open Software License version 3.0
  */
 
-package com.aliucord.manager.ui.screens.patching
+package com.aliucord.manager.voice.ui.screens.patching
 
 import android.os.Parcelable
 import androidx.activity.compose.BackHandler
@@ -27,23 +27,23 @@ import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.koin.koinScreenModel
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import com.aliucord.manager.BuildConfig
-import com.aliucord.manager.R
-import com.aliucord.manager.patcher.steps.StepGroup
-import com.aliucord.manager.ui.components.MainActionButton
-import com.aliucord.manager.ui.components.Wakelock
-import com.aliucord.manager.ui.components.dialogs.InstallerAbortDialog
-import com.aliucord.manager.ui.components.dialogs.NetworkWarningDialog
-import com.aliucord.manager.ui.screens.log.LogScreen
-import com.aliucord.manager.ui.screens.patching.components.*
-import com.aliucord.manager.ui.screens.patchopts.PatchOptions
-import com.aliucord.manager.ui.screens.patchopts.PatchOptionsScreen
-import com.aliucord.manager.ui.theme.customColors
-import com.aliucord.manager.ui.util.paddings.*
-import com.aliucord.manager.ui.util.spacedByLastAtBottom
-import com.aliucord.manager.ui.util.thenIf
-import com.aliucord.manager.util.back
-import com.aliucord.manager.util.isIgnoringBatteryOptimizations
+import com.aliucord.manager.voice.BuildConfig
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.patcher.steps.StepGroup
+import com.aliucord.manager.voice.ui.components.MainActionButton
+import com.aliucord.manager.voice.ui.components.Wakelock
+import com.aliucord.manager.voice.ui.components.dialogs.InstallerAbortDialog
+import com.aliucord.manager.voice.ui.components.dialogs.NetworkWarningDialog
+import com.aliucord.manager.voice.ui.screens.log.LogScreen
+import com.aliucord.manager.voice.ui.screens.patching.components.*
+import com.aliucord.manager.voice.ui.screens.patchopts.PatchOptions
+import com.aliucord.manager.voice.ui.screens.patchopts.PatchOptionsScreen
+import com.aliucord.manager.voice.ui.theme.customColors
+import com.aliucord.manager.voice.ui.util.paddings.*
+import com.aliucord.manager.voice.ui.util.spacedByLastAtBottom
+import com.aliucord.manager.voice.ui.util.thenIf
+import com.aliucord.manager.voice.util.back
+import com.aliucord.manager.voice.util.isIgnoringBatteryOptimizations
 import kotlinx.collections.immutable.persistentListOf
 import kotlinx.coroutines.flow.filter
 import kotlinx.parcelize.IgnoredOnParcel

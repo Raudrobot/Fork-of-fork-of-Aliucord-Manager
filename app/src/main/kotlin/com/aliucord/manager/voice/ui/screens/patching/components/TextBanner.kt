@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.patching.components
+package com.aliucord.manager.voice.ui.screens.patching.components
 
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
@@ -10,7 +10,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.unit.dp
-import com.aliucord.manager.ui.util.thenIf
+import com.aliucord.manager.voice.ui.util.thenIf
 
 @Composable
 fun TextBanner(

@@ -1,6 +1,6 @@
-package com.aliucord.manager.ui.screens.about
+package com.aliucord.manager.voice.ui.screens.about
 
-import com.aliucord.manager.network.models.Contributor
+import com.aliucord.manager.voice.network.models.Contributor
 import kotlinx.collections.immutable.ImmutableList
 
 sealed interface AboutScreenState {

@@ -1,6 +1,6 @@
 @file:Suppress("unused", "NOTHING_TO_INLINE")
 
-package com.aliucord.manager.ui.util
+package com.aliucord.manager.voice.ui.util
 
 import kotlinx.collections.immutable.*
 import kotlinx.collections.immutable.adapters.*

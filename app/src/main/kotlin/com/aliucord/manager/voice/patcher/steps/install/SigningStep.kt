@@ -1,13 +1,13 @@
-package com.aliucord.manager.patcher.steps.install
+package com.aliucord.manager.voice.patcher.steps.install
 
 import android.app.Application
-import com.aliucord.manager.R
-import com.aliucord.manager.manager.PathManager
-import com.aliucord.manager.patcher.StepRunner
-import com.aliucord.manager.patcher.steps.StepGroup
-import com.aliucord.manager.patcher.steps.base.Step
-import com.aliucord.manager.patcher.steps.download.CopyDependenciesStep
-import com.aliucord.manager.ui.screens.patchopts.PatchOptions
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.manager.PathManager
+import com.aliucord.manager.voice.patcher.StepRunner
+import com.aliucord.manager.voice.patcher.steps.StepGroup
+import com.aliucord.manager.voice.patcher.steps.base.Step
+import com.aliucord.manager.voice.patcher.steps.download.CopyDependenciesStep
+import com.aliucord.manager.voice.ui.screens.patchopts.PatchOptions
 import com.android.apksig.ApkSigner
 import com.android.apksig.KeyConfig
 import com.github.diamondminer88.zip.ZipReader

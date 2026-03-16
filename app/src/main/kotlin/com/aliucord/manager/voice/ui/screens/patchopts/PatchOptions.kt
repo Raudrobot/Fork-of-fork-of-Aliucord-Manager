@@ -1,11 +1,11 @@
-package com.aliucord.manager.ui.screens.patchopts
+package com.aliucord.manager.voice.ui.screens.patchopts
 
 import android.os.Parcelable
 import androidx.compose.runtime.Immutable
 import androidx.compose.ui.graphics.Color
-import com.aliucord.manager.ui.screens.componentopts.PatchComponent
-import com.aliucord.manager.util.serialization.ColorParceler
-import com.aliucord.manager.util.serialization.ColorSerializer
+import com.aliucord.manager.voice.ui.screens.componentopts.PatchComponent
+import com.aliucord.manager.voice.util.serialization.ColorParceler
+import com.aliucord.manager.voice.util.serialization.ColorSerializer
 import kotlinx.parcelize.Parcelize
 import kotlinx.parcelize.TypeParceler
 import kotlinx.serialization.SerialName

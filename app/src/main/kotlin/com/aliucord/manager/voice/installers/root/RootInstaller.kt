@@ -1,8 +1,8 @@
-package com.aliucord.manager.installers.root
+package com.aliucord.manager.voice.installers.root
 
 import android.content.Context
-import com.aliucord.manager.installers.*
-import com.aliucord.manager.util.getUserId
+import com.aliucord.manager.voice.installers.*
+import com.aliucord.manager.voice.util.getUserId
 import com.topjohnwu.superuser.Shell
 import kotlinx.coroutines.*
 import java.io.File

@@ -1,4 +1,4 @@
-package com.aliucord.manager.manager.download
+package com.aliucord.manager.voice.manager.download
 
 import android.app.DownloadManager
 import android.content.Context

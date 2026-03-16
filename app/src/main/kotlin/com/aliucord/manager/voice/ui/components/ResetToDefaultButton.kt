@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.components
+package com.aliucord.manager.voice.ui.components
 
 import androidx.compose.animation.*
 import androidx.compose.foundation.layout.size
@@ -8,8 +8,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.util.mirrorVertically
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.util.mirrorVertically
 
 @Composable
 fun ResetToDefaultButton(

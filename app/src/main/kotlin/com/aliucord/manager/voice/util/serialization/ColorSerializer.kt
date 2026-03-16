@@ -1,4 +1,4 @@
-package com.aliucord.manager.util.serialization
+package com.aliucord.manager.voice.util.serialization
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb

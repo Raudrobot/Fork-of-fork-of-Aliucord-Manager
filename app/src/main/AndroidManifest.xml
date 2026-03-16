@@ -70,9 +70,9 @@
         tools:ignore="DiscouragedApi,LockedOrientationActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
-        <action android:name="com.aliucord.manager.REINSTALL" />
-        <action android:name="com.aliucord.manager.OPEN_PLUGINS" />
-        <action android:name="com.aliucord.manager.IMPORT_COMPONENT" />
+        <action android:name="com.aliucord.manager.voice.REINSTALL" />
+        <action android:name="com.aliucord.manager.voice.OPEN_PLUGINS" />
+        <action android:name="com.aliucord.manager.voice.IMPORT_COMPONENT" />
 
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>

@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.components.dialogs
+package com.aliucord.manager.voice.ui.components.dialogs
 
 import android.app.Activity
 import android.content.Intent
@@ -17,8 +17,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.DialogProperties
 import cafe.adriel.voyager.navigator.currentOrThrow
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.theme.customColors
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.theme.customColors
 
 @Composable
 fun PlayProtectDialog(

@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.iconopts
+package com.aliucord.manager.voice.ui.screens.iconopts
 
 import android.app.Application
 import android.net.Uri
@@ -8,10 +8,10 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.graphics.Color
 import cafe.adriel.voyager.core.model.ScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
-import com.aliucord.manager.BuildConfig
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.screens.patchopts.PatchOptions.IconReplacement
-import com.aliucord.manager.util.*
+import com.aliucord.manager.voice.BuildConfig
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.screens.patchopts.PatchOptions.IconReplacement
+import com.aliucord.manager.voice.util.*
 import dev.zt64.compose.pipette.HsvColor
 import java.io.IOException
 

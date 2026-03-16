@@ -1,4 +1,4 @@
-package com.aliucord.manager.patcher.steps.base
+package com.aliucord.manager.voice.patcher.steps.base
 
 enum class StepState {
     Pending,

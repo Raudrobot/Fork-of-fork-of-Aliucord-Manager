@@ -1,7 +1,7 @@
-package com.aliucord.manager.patcher
+package com.aliucord.manager.voice.patcher
 
-import com.aliucord.manager.network.utils.SemVer
-import com.aliucord.manager.ui.screens.patchopts.PatchOptions
+import com.aliucord.manager.voice.network.utils.SemVer
+import com.aliucord.manager.voice.ui.screens.patchopts.PatchOptions
 import kotlinx.serialization.Serializable
 
 /**

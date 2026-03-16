@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.log.components
+package com.aliucord.manager.voice.ui.screens.log.components
 
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.padding
@@ -12,8 +12,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.aliucord.manager.ui.util.horizontalScrollbar
-import com.aliucord.manager.ui.util.thenIf
+import com.aliucord.manager.voice.ui.util.horizontalScrollbar
+import com.aliucord.manager.voice.ui.util.thenIf
 
 @Composable
 fun LogTextArea(

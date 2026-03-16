@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.util
+package com.aliucord.manager.voice.ui.util
 
 import android.app.*
 import android.content.Context
@@ -7,7 +7,7 @@ import android.os.Build
 import android.util.Log
 import androidx.annotation.StringRes
 import androidx.core.app.*
-import com.aliucord.manager.*
+import com.aliucord.manager.voice.*
 
 object InstallNotifications {
     private const val CHANNEL_ID = "installation"

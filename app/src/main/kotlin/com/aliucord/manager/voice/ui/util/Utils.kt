@@ -1,6 +1,6 @@
 @file:Suppress("NOTHING_TO_INLINE")
 
-package com.aliucord.manager.ui.util
+package com.aliucord.manager.voice.ui.util
 
 import androidx.compose.runtime.Stable
 import androidx.compose.runtime.saveable.Saver

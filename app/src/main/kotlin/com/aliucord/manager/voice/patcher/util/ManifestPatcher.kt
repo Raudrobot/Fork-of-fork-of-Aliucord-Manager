@@ -3,7 +3,7 @@
  * Licensed under the Open Software License version 3.0
  */
 
-package com.aliucord.manager.patcher.util
+package com.aliucord.manager.voice.patcher.util
 
 import android.Manifest
 import android.os.Build

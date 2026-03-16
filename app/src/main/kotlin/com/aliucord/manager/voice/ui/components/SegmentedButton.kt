@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.components
+package com.aliucord.manager.voice.ui.components
 
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*

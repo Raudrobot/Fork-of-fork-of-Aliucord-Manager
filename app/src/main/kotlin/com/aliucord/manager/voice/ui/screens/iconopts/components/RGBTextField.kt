@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.iconopts.components
+package com.aliucord.manager.voice.ui.screens.iconopts.components
 
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.text.KeyboardOptions
@@ -11,7 +11,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.aliucord.manager.R
+import com.aliucord.manager.voice.R
 import java.util.Locale
 import kotlin.math.roundToInt
 

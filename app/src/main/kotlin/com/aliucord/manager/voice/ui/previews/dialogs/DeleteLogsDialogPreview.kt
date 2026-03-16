@@ -1,10 +1,10 @@
-package com.aliucord.manager.ui.previews.dialogs
+package com.aliucord.manager.voice.ui.previews.dialogs
 
 import android.content.res.Configuration
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.aliucord.manager.ui.screens.logs.components.dialogs.DeleteLogsDialog
-import com.aliucord.manager.ui.theme.ManagerTheme
+import com.aliucord.manager.voice.ui.screens.logs.components.dialogs.DeleteLogsDialog
+import com.aliucord.manager.voice.ui.theme.ManagerTheme
 
 @Composable
 @Preview(uiMode = Configuration.UI_MODE_NIGHT_YES)

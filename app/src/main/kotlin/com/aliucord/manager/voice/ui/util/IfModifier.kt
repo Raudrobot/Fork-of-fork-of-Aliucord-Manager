@@ -1,6 +1,6 @@
 @file:Suppress("unused")
 
-package com.aliucord.manager.ui.util
+package com.aliucord.manager.voice.ui.util
 
 import androidx.compose.ui.Modifier
 

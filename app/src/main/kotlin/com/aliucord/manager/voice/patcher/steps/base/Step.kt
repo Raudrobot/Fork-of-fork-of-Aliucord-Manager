@@ -1,10 +1,10 @@
-package com.aliucord.manager.patcher.steps.base
+package com.aliucord.manager.voice.patcher.steps.base
 
 import androidx.annotation.StringRes
 import androidx.compose.runtime.*
-import com.aliucord.manager.patcher.StepRunner
-import com.aliucord.manager.patcher.steps.StepGroup
-import com.aliucord.manager.util.toPrecision
+import com.aliucord.manager.voice.patcher.StepRunner
+import com.aliucord.manager.voice.patcher.steps.StepGroup
+import com.aliucord.manager.voice.util.toPrecision
 import kotlinx.coroutines.*
 import kotlin.time.measureTimedValue
 

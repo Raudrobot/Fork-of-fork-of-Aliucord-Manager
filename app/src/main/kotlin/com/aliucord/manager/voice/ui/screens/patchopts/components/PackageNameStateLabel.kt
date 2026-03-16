@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.patchopts.components
+package com.aliucord.manager.voice.ui.screens.patchopts.components
 
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.layout.*
@@ -11,8 +11,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.screens.patchopts.PackageNameState
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.screens.patchopts.PackageNameState
 
 @Composable
 fun PackageNameStateLabel(

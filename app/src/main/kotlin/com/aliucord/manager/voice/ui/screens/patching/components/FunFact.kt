@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.patching.components
+package com.aliucord.manager.voice.ui.screens.patching.components
 
 import androidx.compose.animation.*
 import androidx.compose.animation.core.tween
@@ -12,9 +12,9 @@ import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.screens.patching.PatchingScreenState
-import com.aliucord.manager.ui.screens.patching.VERTICAL_PADDING
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.screens.patching.PatchingScreenState
+import com.aliucord.manager.voice.ui.screens.patching.VERTICAL_PADDING
 
 @Composable
 fun FunFact(

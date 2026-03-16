@@ -1,12 +1,12 @@
-package com.aliucord.manager.patcher.steps.prepare
+package com.aliucord.manager.voice.patcher.steps.prepare
 
 import androidx.compose.runtime.Stable
-import com.aliucord.manager.R
-import com.aliucord.manager.manager.PathManager
-import com.aliucord.manager.patcher.StepRunner
-import com.aliucord.manager.patcher.steps.StepGroup
-import com.aliucord.manager.patcher.steps.base.Step
-import com.aliucord.manager.patcher.steps.base.StepState
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.manager.PathManager
+import com.aliucord.manager.voice.patcher.StepRunner
+import com.aliucord.manager.voice.patcher.steps.StepGroup
+import com.aliucord.manager.voice.patcher.steps.base.Step
+import com.aliucord.manager.voice.patcher.steps.base.StepState
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
 

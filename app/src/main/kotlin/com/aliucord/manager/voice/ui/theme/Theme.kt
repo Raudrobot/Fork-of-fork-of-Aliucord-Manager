@@ -3,7 +3,7 @@
  * Licensed under the Open Software License version 3.0
  */
 
-package com.aliucord.manager.ui.theme
+package com.aliucord.manager.voice.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -13,7 +13,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import com.aliucord.manager.R
+import com.aliucord.manager.voice.R
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 
 @Composable

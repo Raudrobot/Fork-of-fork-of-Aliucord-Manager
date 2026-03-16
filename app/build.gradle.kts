@@ -22,7 +22,7 @@ val gitHasLocalCommits = gitCurrentBranch?.let { branch ->
 val gitHasHasLocalChanges = providers.execIgnoreCode("git", "status", "-s").isNotEmpty()
 
 android {
-    namespace = "com.aliucord.manager.voice"
+    namespace = "com.aliucord.manager.voice.voice"
     compileSdk = 36
 
     defaultConfig {

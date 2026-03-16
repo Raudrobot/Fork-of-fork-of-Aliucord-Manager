@@ -1,12 +1,12 @@
-package com.aliucord.manager.patcher.steps.patch
+package com.aliucord.manager.voice.patcher.steps.patch
 
-import com.aliucord.manager.R
-import com.aliucord.manager.patcher.StepRunner
-import com.aliucord.manager.patcher.steps.StepGroup
-import com.aliucord.manager.patcher.steps.base.Step
-import com.aliucord.manager.patcher.steps.download.CopyDependenciesStep
-import com.aliucord.manager.patcher.util.ManifestPatcher
-import com.aliucord.manager.ui.screens.patchopts.PatchOptions
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.patcher.StepRunner
+import com.aliucord.manager.voice.patcher.steps.StepGroup
+import com.aliucord.manager.voice.patcher.steps.base.Step
+import com.aliucord.manager.voice.patcher.steps.download.CopyDependenciesStep
+import com.aliucord.manager.voice.patcher.util.ManifestPatcher
+import com.aliucord.manager.voice.ui.screens.patchopts.PatchOptions
 import com.github.diamondminer88.zip.ZipReader
 import com.github.diamondminer88.zip.ZipWriter
 

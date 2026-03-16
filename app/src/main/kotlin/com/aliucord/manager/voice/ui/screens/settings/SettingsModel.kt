@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.settings
+package com.aliucord.manager.voice.ui.screens.settings
 
 import android.app.Activity
 import android.app.Application
@@ -8,12 +8,12 @@ import androidx.compose.runtime.*
 import androidx.core.content.FileProvider
 import cafe.adriel.voyager.core.model.ScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
-import com.aliucord.manager.BuildConfig
-import com.aliucord.manager.R
-import com.aliucord.manager.di.ActivityProvider
-import com.aliucord.manager.manager.*
-import com.aliucord.manager.ui.theme.Theme
-import com.aliucord.manager.util.*
+import com.aliucord.manager.voice.BuildConfig
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.di.ActivityProvider
+import com.aliucord.manager.voice.manager.*
+import com.aliucord.manager.voice.ui.theme.Theme
+import com.aliucord.manager.voice.util.*
 
 class SettingsModel(
     private val application: Application,

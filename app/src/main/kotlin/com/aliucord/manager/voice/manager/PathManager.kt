@@ -1,8 +1,8 @@
-package com.aliucord.manager.manager
+package com.aliucord.manager.voice.manager
 
 import android.app.Application
 import android.os.Environment
-import com.aliucord.manager.network.utils.SemVer
+import com.aliucord.manager.voice.network.utils.SemVer
 import java.io.File
 
 /**

@@ -1,10 +1,10 @@
-package com.aliucord.manager.ui.components.settings
+package com.aliucord.manager.voice.ui.components.settings
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.aliucord.manager.ui.components.TextDivider
+import com.aliucord.manager.voice.ui.components.TextDivider
 
 @Composable
 fun SettingsHeader(

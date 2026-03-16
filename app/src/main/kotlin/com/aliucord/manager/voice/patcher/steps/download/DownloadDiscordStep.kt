@@ -1,13 +1,13 @@
-package com.aliucord.manager.patcher.steps.download
+package com.aliucord.manager.voice.patcher.steps.download
 
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.compose.runtime.Stable
-import com.aliucord.manager.BuildConfig
-import com.aliucord.manager.R
-import com.aliucord.manager.manager.PathManager
-import com.aliucord.manager.patcher.StepRunner
-import com.aliucord.manager.patcher.steps.base.DownloadStep
+import com.aliucord.manager.voice.BuildConfig
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.manager.PathManager
+import com.aliucord.manager.voice.patcher.StepRunner
+import com.aliucord.manager.voice.patcher.steps.base.DownloadStep
 import com.android.apksig.ApkVerifier
 import okio.ByteString.Companion.decodeHex
 import okio.ByteString.Companion.toByteString

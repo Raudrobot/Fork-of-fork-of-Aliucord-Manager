@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.about.components
+package com.aliucord.manager.voice.ui.screens.about.components
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource

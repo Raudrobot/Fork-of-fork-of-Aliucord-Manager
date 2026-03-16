@@ -1,13 +1,13 @@
-package com.aliucord.manager.ui.previews.screens
+package com.aliucord.manager.voice.ui.previews.screens
 
 import android.content.res.Configuration
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.*
-import com.aliucord.manager.network.utils.SemVer
-import com.aliucord.manager.ui.screens.componentopts.PatchComponent
-import com.aliucord.manager.ui.screens.patchopts.*
-import com.aliucord.manager.ui.theme.ManagerTheme
+import com.aliucord.manager.voice.network.utils.SemVer
+import com.aliucord.manager.voice.ui.screens.componentopts.PatchComponent
+import com.aliucord.manager.voice.ui.screens.patchopts.*
+import com.aliucord.manager.voice.ui.theme.ManagerTheme
 import kotlin.time.Clock
 
 // This preview has scrollable/interactable content that cannot be tested from an IDE preview

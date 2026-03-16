@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.components
+package com.aliucord.manager.voice.ui.components
 
 import androidx.activity.compose.LocalActivity
 import androidx.compose.material3.Icon
@@ -7,8 +7,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import cafe.adriel.voyager.navigator.LocalNavigator
-import com.aliucord.manager.R
-import com.aliucord.manager.util.back
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.util.back
 
 /**
  * Standalone back button for interacting with the current navigator.

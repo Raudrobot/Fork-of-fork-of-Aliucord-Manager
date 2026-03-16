@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.util
+package com.aliucord.manager.voice.ui.util
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.runtime.Immutable

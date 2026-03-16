@@ -1,12 +1,12 @@
-package com.aliucord.manager.installers.dhizuku
+package com.aliucord.manager.voice.installers.dhizuku
 
 import android.content.Context
 import android.content.pm.*
-import com.aliucord.manager.installers.Installer
-import com.aliucord.manager.installers.InstallerResult
-import com.aliucord.manager.installers.pm.PMUtils
-import com.aliucord.manager.manager.DhizukuManager
-import com.aliucord.manager.util.HiddenAPI
+import com.aliucord.manager.voice.installers.Installer
+import com.aliucord.manager.voice.installers.InstallerResult
+import com.aliucord.manager.voice.installers.pm.PMUtils
+import com.aliucord.manager.voice.manager.DhizukuManager
+import com.aliucord.manager.voice.util.HiddenAPI
 import com.rosan.dhizuku.api.Dhizuku
 import dev.rikka.tools.refine.Refine
 import kotlinx.coroutines.suspendCancellableCoroutine

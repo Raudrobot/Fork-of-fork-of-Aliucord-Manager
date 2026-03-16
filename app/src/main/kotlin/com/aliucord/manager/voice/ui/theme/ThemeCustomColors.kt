@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.theme
+package com.aliucord.manager.voice.ui.theme
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.*

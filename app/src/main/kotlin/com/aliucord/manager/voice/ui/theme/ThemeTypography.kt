@@ -1,9 +1,9 @@
-package com.aliucord.manager.ui.theme
+package com.aliucord.manager.voice.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.ExperimentalTextApi
 import androidx.compose.ui.text.font.*
-import com.aliucord.manager.R
+import com.aliucord.manager.voice.R
 
 // This uses a variable font variant of Roboto.
 // ref: https://medium.com/androiddevelopers/just-your-type-variable-fonts-in-compose-5bf63b357994

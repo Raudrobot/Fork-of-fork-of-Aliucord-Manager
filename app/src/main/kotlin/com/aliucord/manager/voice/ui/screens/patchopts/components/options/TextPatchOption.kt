@@ -1,12 +1,12 @@
-package com.aliucord.manager.ui.screens.patchopts.components.options
+package com.aliucord.manager.voice.ui.screens.patchopts.components.options
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.aliucord.manager.ui.components.Label
-import com.aliucord.manager.ui.components.ResetToDefaultButton
+import com.aliucord.manager.voice.ui.components.Label
+import com.aliucord.manager.voice.ui.components.ResetToDefaultButton
 
 @Composable
 fun TextPatchOption(

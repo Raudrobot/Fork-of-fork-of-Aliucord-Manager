@@ -1,14 +1,14 @@
-package com.aliucord.manager.patcher.steps.download
+package com.aliucord.manager.voice.patcher.steps.download
 
 import androidx.compose.runtime.Stable
-import com.aliucord.manager.R
-import com.aliucord.manager.manager.PathManager
-import com.aliucord.manager.network.utils.SemVer
-import com.aliucord.manager.patcher.StepRunner
-import com.aliucord.manager.patcher.steps.base.*
-import com.aliucord.manager.patcher.steps.patch.ReorganizeDexStep
-import com.aliucord.manager.patcher.steps.prepare.FetchInfoStep
-import com.aliucord.manager.ui.screens.componentopts.PatchComponent
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.manager.PathManager
+import com.aliucord.manager.voice.network.utils.SemVer
+import com.aliucord.manager.voice.patcher.StepRunner
+import com.aliucord.manager.voice.patcher.steps.base.*
+import com.aliucord.manager.voice.patcher.steps.patch.ReorganizeDexStep
+import com.aliucord.manager.voice.patcher.steps.prepare.FetchInfoStep
+import com.aliucord.manager.voice.ui.screens.componentopts.PatchComponent
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
 import java.io.FileNotFoundException

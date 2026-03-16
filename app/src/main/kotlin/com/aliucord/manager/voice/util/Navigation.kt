@@ -1,9 +1,9 @@
-package com.aliucord.manager.util
+package com.aliucord.manager.voice.util
 
 import android.app.Activity
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.core.stack.Stack
-import com.aliucord.manager.ui.screens.home.HomeScreen
+import com.aliucord.manager.voice.ui.screens.home.HomeScreen
 
 /**
  * Custom back logic for handling special screens differently.

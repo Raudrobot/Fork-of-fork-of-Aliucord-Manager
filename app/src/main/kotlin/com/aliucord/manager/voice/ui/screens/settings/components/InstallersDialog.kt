@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.settings.components
+package com.aliucord.manager.voice.ui.screens.settings.components
 
 import androidx.compose.foundation.*
 import androidx.compose.foundation.interaction.MutableInteractionSource
@@ -14,9 +14,9 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.aliucord.manager.R
-import com.aliucord.manager.manager.*
-import com.aliucord.manager.util.showToast
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.manager.*
+import com.aliucord.manager.voice.util.showToast
 import com.topjohnwu.superuser.Shell
 import org.koin.compose.koinInject
 

@@ -1,14 +1,14 @@
-package com.aliucord.manager.ui.previews.screens.about
+package com.aliucord.manager.voice.ui.previews.screens.about
 
 import android.content.res.Configuration
 import androidx.compose.runtime.*
 import androidx.compose.ui.tooling.preview.*
-import com.aliucord.manager.network.models.Contributor
-import com.aliucord.manager.ui.screens.about.AboutScreenContent
-import com.aliucord.manager.ui.screens.about.AboutScreenState
-import com.aliucord.manager.ui.theme.ManagerTheme
-import com.aliucord.manager.ui.util.emptyImmutableList
-import com.aliucord.manager.util.serialization.ImmutableListSerializer
+import com.aliucord.manager.voice.network.models.Contributor
+import com.aliucord.manager.voice.ui.screens.about.AboutScreenContent
+import com.aliucord.manager.voice.ui.screens.about.AboutScreenState
+import com.aliucord.manager.voice.ui.theme.ManagerTheme
+import com.aliucord.manager.voice.ui.util.emptyImmutableList
+import com.aliucord.manager.voice.util.serialization.ImmutableListSerializer
 import kotlinx.collections.immutable.*
 import kotlinx.serialization.json.Json
 

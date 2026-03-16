@@ -1,13 +1,13 @@
-package com.aliucord.manager.patcher.steps.patch
+package com.aliucord.manager.voice.patcher.steps.patch
 
 import android.os.Build
-import com.aliucord.manager.R
-import com.aliucord.manager.patcher.StepRunner
-import com.aliucord.manager.patcher.steps.StepGroup
-import com.aliucord.manager.patcher.steps.base.IDexProvider
-import com.aliucord.manager.patcher.steps.base.Step
-import com.aliucord.manager.patcher.steps.download.CopyDependenciesStep
-import com.aliucord.manager.patcher.steps.download.DownloadAliuhookStep
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.patcher.StepRunner
+import com.aliucord.manager.voice.patcher.steps.StepGroup
+import com.aliucord.manager.voice.patcher.steps.base.IDexProvider
+import com.aliucord.manager.voice.patcher.steps.base.Step
+import com.aliucord.manager.voice.patcher.steps.download.CopyDependenciesStep
+import com.aliucord.manager.voice.patcher.steps.download.DownloadAliuhookStep
 import com.github.diamondminer88.zip.*
 import org.koin.core.component.KoinComponent
 

@@ -1,6 +1,6 @@
 @file:Suppress("NOTHING_TO_INLINE")
 
-package com.aliucord.manager.network.utils
+package com.aliucord.manager.voice.network.utils
 
 import io.ktor.http.HttpStatusCode
 

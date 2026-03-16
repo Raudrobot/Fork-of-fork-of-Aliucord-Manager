@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.widgets.updater
+package com.aliucord.manager.voice.ui.widgets.updater
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
@@ -12,7 +12,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.DialogProperties
-import com.aliucord.manager.R
+import com.aliucord.manager.voice.R
 import org.koin.androidx.compose.koinViewModel
 
 @Composable

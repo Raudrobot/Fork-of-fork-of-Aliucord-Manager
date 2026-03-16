@@ -1,12 +1,12 @@
-package com.aliucord.manager.ui.screens.about
+package com.aliucord.manager.voice.ui.screens.about
 
 import cafe.adriel.voyager.core.model.StateScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
-import com.aliucord.manager.network.models.Contributor
-import com.aliucord.manager.network.services.HttpService
-import com.aliucord.manager.network.utils.fold
-import com.aliucord.manager.ui.util.toUnsafeImmutable
-import com.aliucord.manager.util.launchIO
+import com.aliucord.manager.voice.network.models.Contributor
+import com.aliucord.manager.voice.network.services.HttpService
+import com.aliucord.manager.voice.network.utils.fold
+import com.aliucord.manager.voice.ui.util.toUnsafeImmutable
+import com.aliucord.manager.voice.util.launchIO
 import io.ktor.client.request.url
 
 class AboutModel(

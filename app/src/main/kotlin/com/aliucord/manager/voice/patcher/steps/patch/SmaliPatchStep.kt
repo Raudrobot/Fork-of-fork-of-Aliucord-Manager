@@ -1,13 +1,13 @@
-package com.aliucord.manager.patcher.steps.patch
+package com.aliucord.manager.voice.patcher.steps.patch
 
-import com.aliucord.manager.R
-import com.aliucord.manager.manager.PathManager
-import com.aliucord.manager.patcher.StepRunner
-import com.aliucord.manager.patcher.steps.StepGroup
-import com.aliucord.manager.patcher.steps.base.IDexProvider
-import com.aliucord.manager.patcher.steps.base.Step
-import com.aliucord.manager.patcher.steps.download.CopyDependenciesStep
-import com.aliucord.manager.patcher.steps.download.DownloadPatchesStep
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.manager.PathManager
+import com.aliucord.manager.voice.patcher.StepRunner
+import com.aliucord.manager.voice.patcher.steps.StepGroup
+import com.aliucord.manager.voice.patcher.steps.base.IDexProvider
+import com.aliucord.manager.voice.patcher.steps.base.Step
+import com.aliucord.manager.voice.patcher.steps.download.CopyDependenciesStep
+import com.aliucord.manager.voice.patcher.steps.download.DownloadPatchesStep
 import com.android.tools.smali.baksmali.Baksmali
 import com.android.tools.smali.baksmali.BaksmaliOptions
 import com.android.tools.smali.dexlib2.Opcodes

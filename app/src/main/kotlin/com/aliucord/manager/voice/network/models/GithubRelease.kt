@@ -1,4 +1,4 @@
-package com.aliucord.manager.network.models
+package com.aliucord.manager.voice.network.models
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

@@ -1,4 +1,4 @@
-package com.aliucord.manager.patcher.util
+package com.aliucord.manager.voice.patcher.util
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb

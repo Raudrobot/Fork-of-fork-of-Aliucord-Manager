@@ -1,4 +1,4 @@
-package com.aliucord.manager.installers.intent
+package com.aliucord.manager.voice.installers.intent
 
 import android.annotation.SuppressLint
 import android.content.*
@@ -9,9 +9,9 @@ import androidx.activity.ComponentActivity
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.FileProvider
-import com.aliucord.manager.BuildConfig
-import com.aliucord.manager.di.ActivityProvider
-import com.aliucord.manager.installers.*
+import com.aliucord.manager.voice.BuildConfig
+import com.aliucord.manager.voice.di.ActivityProvider
+import com.aliucord.manager.voice.installers.*
 import kotlinx.coroutines.*
 import java.io.File
 import java.util.UUID

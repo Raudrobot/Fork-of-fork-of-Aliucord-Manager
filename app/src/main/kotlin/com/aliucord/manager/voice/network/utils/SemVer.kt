@@ -1,4 +1,4 @@
-package com.aliucord.manager.network.utils
+package com.aliucord.manager.voice.network.utils
 
 import android.os.Parcelable
 import androidx.compose.runtime.Immutable

@@ -3,7 +3,7 @@
  * Licensed under the Open Software License version 3.0
  */
 
-package com.aliucord.manager.ui.screens.settings
+package com.aliucord.manager.voice.ui.screens.settings
 
 import android.os.Build
 import android.os.Parcelable
@@ -21,13 +21,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.koin.koinScreenModel
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.components.BackButton
-import com.aliucord.manager.ui.components.MainActionButton
-import com.aliucord.manager.ui.components.settings.*
-import com.aliucord.manager.ui.screens.settings.components.InstallersDialog
-import com.aliucord.manager.ui.screens.settings.components.ThemeDialog
-import com.aliucord.manager.ui.util.paddings.*
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.components.BackButton
+import com.aliucord.manager.voice.ui.components.MainActionButton
+import com.aliucord.manager.voice.ui.components.settings.*
+import com.aliucord.manager.voice.ui.screens.settings.components.InstallersDialog
+import com.aliucord.manager.voice.ui.screens.settings.components.ThemeDialog
+import com.aliucord.manager.voice.ui.util.paddings.*
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
 

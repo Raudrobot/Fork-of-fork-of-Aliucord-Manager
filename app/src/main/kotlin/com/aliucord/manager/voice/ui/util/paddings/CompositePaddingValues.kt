@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.util.paddings
+package com.aliucord.manager.voice.ui.util.paddings
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.runtime.Stable

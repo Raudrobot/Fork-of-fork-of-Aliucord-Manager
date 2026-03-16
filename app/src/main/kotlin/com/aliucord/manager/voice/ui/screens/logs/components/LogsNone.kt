@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.logs.components
+package com.aliucord.manager.voice.ui.screens.logs.components
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
@@ -9,7 +9,7 @@ import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.aliucord.manager.R
+import com.aliucord.manager.voice.R
 
 @Composable
 fun LogsNone(modifier: Modifier = Modifier) {

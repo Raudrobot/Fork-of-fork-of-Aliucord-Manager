@@ -1,14 +1,14 @@
-package com.aliucord.manager.patcher.steps.patch
+package com.aliucord.manager.voice.patcher.steps.patch
 
-import com.aliucord.manager.BuildConfig
-import com.aliucord.manager.R
-import com.aliucord.manager.network.utils.SemVer
-import com.aliucord.manager.patcher.InstallMetadata
-import com.aliucord.manager.patcher.StepRunner
-import com.aliucord.manager.patcher.steps.StepGroup
-import com.aliucord.manager.patcher.steps.base.Step
-import com.aliucord.manager.patcher.steps.download.*
-import com.aliucord.manager.ui.screens.patchopts.PatchOptions
+import com.aliucord.manager.voice.BuildConfig
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.network.utils.SemVer
+import com.aliucord.manager.voice.patcher.InstallMetadata
+import com.aliucord.manager.voice.patcher.StepRunner
+import com.aliucord.manager.voice.patcher.steps.StepGroup
+import com.aliucord.manager.voice.patcher.steps.base.Step
+import com.aliucord.manager.voice.patcher.steps.download.*
+import com.aliucord.manager.voice.ui.screens.patchopts.PatchOptions
 import com.github.diamondminer88.zip.ZipWriter
 import kotlinx.serialization.json.Json
 import org.koin.core.component.KoinComponent

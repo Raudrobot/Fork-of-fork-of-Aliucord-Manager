@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.patching.components
+package com.aliucord.manager.voice.ui.screens.patching.components
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.*
@@ -11,9 +11,9 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.aliucord.manager.R
-import com.aliucord.manager.patcher.steps.base.Step
-import com.aliucord.manager.patcher.steps.base.StepState
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.patcher.steps.base.Step
+import com.aliucord.manager.voice.patcher.steps.base.StepState
 import kotlinx.collections.immutable.ImmutableList
 
 @Composable

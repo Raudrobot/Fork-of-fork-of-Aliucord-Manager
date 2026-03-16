@@ -1,4 +1,4 @@
-package com.aliucord.manager.installers.pm
+package com.aliucord.manager.voice.installers.pm
 
 import android.annotation.SuppressLint
 import android.app.PendingIntent
@@ -10,9 +10,9 @@ import android.content.pm.PackageInstaller.SessionParams
 import android.content.pm.PackageInstallerHidden.SessionParamsHidden
 import android.os.*
 import androidx.core.content.ContextCompat
-import com.aliucord.manager.installers.Installer
-import com.aliucord.manager.installers.InstallerResult
-import com.aliucord.manager.util.*
+import com.aliucord.manager.voice.installers.Installer
+import com.aliucord.manager.voice.installers.InstallerResult
+import com.aliucord.manager.voice.util.*
 import dev.rikka.tools.refine.Refine
 import java.io.File
 

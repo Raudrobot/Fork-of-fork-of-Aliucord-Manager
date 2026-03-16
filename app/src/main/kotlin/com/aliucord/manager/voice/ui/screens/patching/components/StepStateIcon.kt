@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.patching.components
+package com.aliucord.manager.voice.ui.screens.patching.components
 
 import androidx.compose.animation.Crossfade
 import androidx.compose.animation.core.*
@@ -13,8 +13,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.Dp
-import com.aliucord.manager.R
-import com.aliucord.manager.patcher.steps.base.StepState
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.patcher.steps.base.StepState
 import kotlin.math.floor
 import kotlin.math.roundToInt
 

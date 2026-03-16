@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.previews.screens
+package com.aliucord.manager.voice.ui.previews.screens
 
 import android.content.Context
 import android.content.res.Configuration
@@ -10,11 +10,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.*
 import androidx.core.graphics.drawable.toBitmap
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.screens.iconopts.IconOptionsMode
-import com.aliucord.manager.ui.screens.iconopts.IconOptionsScreenContent
-import com.aliucord.manager.ui.screens.patchopts.PatchOptions.IconReplacement
-import com.aliucord.manager.ui.theme.ManagerTheme
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.screens.iconopts.IconOptionsMode
+import com.aliucord.manager.voice.ui.screens.iconopts.IconOptionsScreenContent
+import com.aliucord.manager.voice.ui.screens.patchopts.PatchOptions.IconReplacement
+import com.aliucord.manager.voice.ui.theme.ManagerTheme
 import dev.zt64.compose.pipette.HsvColor
 import java.io.ByteArrayOutputStream
 

@@ -1,18 +1,18 @@
-package com.aliucord.manager.ui.screens.plugins
+package com.aliucord.manager.voice.ui.screens.plugins
 
 import android.app.Application
 import android.util.Log
 import androidx.compose.runtime.*
 import cafe.adriel.voyager.core.model.ScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
-import com.aliucord.manager.BuildConfig
-import com.aliucord.manager.R
-import com.aliucord.manager.manager.PathManager
-import com.aliucord.manager.ui.screens.plugins.model.PluginItem
-import com.aliucord.manager.ui.screens.plugins.model.PluginManifest
-import com.aliucord.manager.ui.util.emptyImmutableList
-import com.aliucord.manager.ui.util.toUnsafeImmutable
-import com.aliucord.manager.util.*
+import com.aliucord.manager.voice.BuildConfig
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.manager.PathManager
+import com.aliucord.manager.voice.ui.screens.plugins.model.PluginItem
+import com.aliucord.manager.voice.ui.screens.plugins.model.PluginManifest
+import com.aliucord.manager.voice.ui.util.emptyImmutableList
+import com.aliucord.manager.voice.ui.util.toUnsafeImmutable
+import com.aliucord.manager.voice.util.*
 import com.github.diamondminer88.zip.ZipReader
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.coroutines.Dispatchers

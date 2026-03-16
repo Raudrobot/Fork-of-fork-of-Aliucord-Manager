@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.previews.screens.home
+package com.aliucord.manager.voice.ui.previews.screens.home
 
 import android.content.res.Configuration
 import android.graphics.BitmapFactory
@@ -7,10 +7,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.painter.BitmapPainter
 import androidx.compose.ui.tooling.preview.*
-import com.aliucord.manager.ui.screens.home.*
-import com.aliucord.manager.ui.screens.home.components.HomeAppBar
-import com.aliucord.manager.ui.theme.ManagerTheme
-import com.aliucord.manager.ui.util.DiscordVersion
+import com.aliucord.manager.voice.ui.screens.home.*
+import com.aliucord.manager.voice.ui.screens.home.components.HomeAppBar
+import com.aliucord.manager.voice.ui.theme.ManagerTheme
+import com.aliucord.manager.voice.ui.util.DiscordVersion
 import kotlinx.collections.immutable.persistentListOf
 import kotlin.io.encoding.Base64
 

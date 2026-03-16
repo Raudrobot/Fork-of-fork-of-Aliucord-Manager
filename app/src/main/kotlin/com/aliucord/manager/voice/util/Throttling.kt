@@ -1,4 +1,4 @@
-package com.aliucord.manager.util
+package com.aliucord.manager.voice.util
 
 import kotlinx.coroutines.*
 

@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.components
+package com.aliucord.manager.voice.ui.components
 
 import android.graphics.*
 import android.graphics.drawable.*
@@ -18,8 +18,8 @@ import androidx.core.content.ContextCompat
 import androidx.core.graphics.applyCanvas
 import androidx.core.graphics.createBitmap
 import androidx.core.graphics.drawable.toDrawable
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.screens.patchopts.PatchOptions.IconReplacement
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.screens.patchopts.PatchOptions.IconReplacement
 
 // Sizing information is obtained from here: https://medium.com/google-design/designing-adaptive-icons-515af294c783
 

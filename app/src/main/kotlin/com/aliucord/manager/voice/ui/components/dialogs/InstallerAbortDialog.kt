@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.components.dialogs
+package com.aliucord.manager.voice.ui.components.dialogs
 
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.*
@@ -8,7 +8,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.aliucord.manager.R
+import com.aliucord.manager.voice.R
 
 @Composable
 fun InstallerAbortDialog(

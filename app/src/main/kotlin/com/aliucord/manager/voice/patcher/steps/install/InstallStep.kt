@@ -1,21 +1,21 @@
-package com.aliucord.manager.patcher.steps.install
+package com.aliucord.manager.voice.patcher.steps.install
 
 import android.content.Context
 import androidx.lifecycle.*
-import com.aliucord.manager.R
-import com.aliucord.manager.installers.InstallerResult
-import com.aliucord.manager.installers.root.RootInstaller
-import com.aliucord.manager.installers.shizuku.ShizukuInstaller
-import com.aliucord.manager.manager.*
-import com.aliucord.manager.patcher.StepRunner
-import com.aliucord.manager.patcher.steps.StepGroup
-import com.aliucord.manager.patcher.steps.base.Step
-import com.aliucord.manager.patcher.steps.base.StepState
-import com.aliucord.manager.patcher.steps.download.CopyDependenciesStep
-import com.aliucord.manager.ui.components.dialogs.PlayProtectDialog
-import com.aliucord.manager.ui.screens.patchopts.PatchOptions
-import com.aliucord.manager.ui.util.InstallNotifications
-import com.aliucord.manager.util.*
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.installers.InstallerResult
+import com.aliucord.manager.voice.installers.root.RootInstaller
+import com.aliucord.manager.voice.installers.shizuku.ShizukuInstaller
+import com.aliucord.manager.voice.manager.*
+import com.aliucord.manager.voice.patcher.StepRunner
+import com.aliucord.manager.voice.patcher.steps.StepGroup
+import com.aliucord.manager.voice.patcher.steps.base.Step
+import com.aliucord.manager.voice.patcher.steps.base.StepState
+import com.aliucord.manager.voice.patcher.steps.download.CopyDependenciesStep
+import com.aliucord.manager.voice.ui.components.dialogs.PlayProtectDialog
+import com.aliucord.manager.voice.ui.screens.patchopts.PatchOptions
+import com.aliucord.manager.voice.ui.util.InstallNotifications
+import com.aliucord.manager.voice.util.*
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
 

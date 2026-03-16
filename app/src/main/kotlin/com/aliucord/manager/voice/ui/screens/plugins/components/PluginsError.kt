@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.plugins.components
+package com.aliucord.manager.voice.ui.screens.plugins.components
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
@@ -8,7 +8,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.aliucord.manager.R
+import com.aliucord.manager.voice.R
 
 @Composable
 fun PluginsError(modifier: Modifier = Modifier) {

@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.widgets.updater
+package com.aliucord.manager.voice.ui.widgets.updater
 
 import android.app.Application
 import android.content.Intent
@@ -7,16 +7,16 @@ import androidx.compose.runtime.*
 import androidx.core.net.toUri
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.aliucord.manager.BuildConfig
-import com.aliucord.manager.R
-import com.aliucord.manager.installers.InstallerResult
-import com.aliucord.manager.manager.InstallerManager
-import com.aliucord.manager.manager.download.IDownloadManager
-import com.aliucord.manager.manager.download.KtorDownloadManager
-import com.aliucord.manager.network.services.AliucordGithubService
-import com.aliucord.manager.network.utils.SemVer
-import com.aliucord.manager.network.utils.getOrThrow
-import com.aliucord.manager.util.*
+import com.aliucord.manager.voice.BuildConfig
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.installers.InstallerResult
+import com.aliucord.manager.voice.manager.InstallerManager
+import com.aliucord.manager.voice.manager.download.IDownloadManager
+import com.aliucord.manager.voice.manager.download.KtorDownloadManager
+import com.aliucord.manager.voice.network.services.AliucordGithubService
+import com.aliucord.manager.voice.network.utils.SemVer
+import com.aliucord.manager.voice.network.utils.getOrThrow
+import com.aliucord.manager.voice.util.*
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlin.system.exitProcess

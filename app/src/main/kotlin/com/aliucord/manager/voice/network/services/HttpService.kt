@@ -1,8 +1,8 @@
-package com.aliucord.manager.network.services
+package com.aliucord.manager.voice.network.services
 
 import android.util.Log
-import com.aliucord.manager.BuildConfig
-import com.aliucord.manager.network.utils.*
+import com.aliucord.manager.voice.BuildConfig
+import com.aliucord.manager.voice.network.utils.*
 import io.ktor.client.HttpClient
 import io.ktor.client.request.HttpRequestBuilder
 import io.ktor.client.request.request

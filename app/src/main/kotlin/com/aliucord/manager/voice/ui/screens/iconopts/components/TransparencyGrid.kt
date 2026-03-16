@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.iconopts.components
+package com.aliucord.manager.voice.ui.screens.iconopts.components
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.runtime.Composable

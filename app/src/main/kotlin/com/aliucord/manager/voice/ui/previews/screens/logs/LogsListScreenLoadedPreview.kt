@@ -1,13 +1,13 @@
-package com.aliucord.manager.ui.previews.screens.logs
+package com.aliucord.manager.voice.ui.previews.screens.logs
 
 import android.content.res.Configuration
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.compose.ui.tooling.preview.Preview
-import com.aliucord.manager.ui.screens.logs.LogEntry
-import com.aliucord.manager.ui.screens.logs.LogsScreenContent
-import com.aliucord.manager.ui.theme.ManagerTheme
+import com.aliucord.manager.voice.ui.screens.logs.LogEntry
+import com.aliucord.manager.voice.ui.screens.logs.LogsScreenContent
+import com.aliucord.manager.voice.ui.theme.ManagerTheme
 import kotlinx.collections.immutable.persistentListOf
 import java.util.UUID
 
@@ -64,8 +64,8 @@ private val logs: SnapshotStateList<LogEntry> = mutableStateListOf(
         durationSecs = 0.057f,
         stacktracePreview = persistentListOf(
             "java.lang.IllegalStateException: balls",
-            "\tat com.aliucord.manager.patcher.steps.prepare.FetchInfoStep.execute(FetchInfoStep.kt:31)",
-            "\tat com.aliucord.manager.patcher.steps.prepare.FetchInfoStep\$execute\\$1.invokeSuspend(Unknown Source:15)",
+            "\tat com.aliucord.manager.voice.patcher.steps.prepare.FetchInfoStep.execute(FetchInfoStep.kt:31)",
+            "\tat com.aliucord.manager.voice.patcher.steps.prepare.FetchInfoStep\$execute\\$1.invokeSuspend(Unknown Source:15)",
         ),
     ),
     LogEntry(

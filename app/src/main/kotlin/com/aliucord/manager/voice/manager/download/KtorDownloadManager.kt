@@ -1,4 +1,4 @@
-package com.aliucord.manager.manager.download
+package com.aliucord.manager.voice.manager.download
 
 import android.app.Application
 import android.content.Context
@@ -7,11 +7,11 @@ import android.os.storage.StorageManager
 import android.util.Log
 import androidx.annotation.StringRes
 import androidx.core.content.getSystemService
-import com.aliucord.manager.BuildConfig
-import com.aliucord.manager.R
-import com.aliucord.manager.manager.download.IDownloadManager.Result
-import com.aliucord.manager.patcher.util.InsufficientStorageException
-import com.aliucord.manager.util.IS_PROBABLY_EMULATOR
+import com.aliucord.manager.voice.BuildConfig
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.manager.download.IDownloadManager.Result
+import com.aliucord.manager.voice.patcher.util.InsufficientStorageException
+import com.aliucord.manager.voice.util.IS_PROBABLY_EMULATOR
 import io.ktor.client.HttpClient
 import io.ktor.client.request.header
 import io.ktor.client.request.prepareGet

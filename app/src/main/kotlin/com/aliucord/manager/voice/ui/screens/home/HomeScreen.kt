@@ -4,7 +4,7 @@
  */
 
 
-package com.aliucord.manager.ui.screens.home
+package com.aliucord.manager.voice.ui.screens.home
 
 import android.os.Parcelable
 import androidx.compose.animation.*
@@ -26,15 +26,15 @@ import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.koin.koinScreenModel
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.components.LoadFailure
-import com.aliucord.manager.ui.components.ProjectHeader
-import com.aliucord.manager.ui.screens.home.components.*
-import com.aliucord.manager.ui.screens.patchopts.PatchOptionsScreen
-import com.aliucord.manager.ui.screens.plugins.PluginsScreen
-import com.aliucord.manager.ui.util.paddings.PaddingValuesSides
-import com.aliucord.manager.ui.util.paddings.exclude
-import com.aliucord.manager.util.*
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.components.LoadFailure
+import com.aliucord.manager.voice.ui.components.ProjectHeader
+import com.aliucord.manager.voice.ui.screens.home.components.*
+import com.aliucord.manager.voice.ui.screens.patchopts.PatchOptionsScreen
+import com.aliucord.manager.voice.ui.screens.plugins.PluginsScreen
+import com.aliucord.manager.voice.ui.util.paddings.PaddingValuesSides
+import com.aliucord.manager.voice.ui.util.paddings.exclude
+import com.aliucord.manager.voice.util.*
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
 

@@ -3,7 +3,7 @@
  * Licensed under the Open Software License version 3.0
  */
 
-package com.aliucord.manager.ui.screens.plugins
+package com.aliucord.manager.voice.ui.screens.plugins
 
 import android.os.Parcelable
 import androidx.compose.foundation.layout.*
@@ -18,13 +18,13 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.LifecycleResumeEffect
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.koin.koinScreenModel
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.components.BackButton
-import com.aliucord.manager.ui.components.settings.SettingsSwitch
-import com.aliucord.manager.ui.screens.plugins.components.*
-import com.aliucord.manager.ui.screens.plugins.components.dialogs.UninstallPluginDialog
-import com.aliucord.manager.ui.screens.plugins.model.PluginItem
-import com.aliucord.manager.ui.util.paddings.*
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.components.BackButton
+import com.aliucord.manager.voice.ui.components.settings.SettingsSwitch
+import com.aliucord.manager.voice.ui.screens.plugins.components.*
+import com.aliucord.manager.voice.ui.screens.plugins.components.dialogs.UninstallPluginDialog
+import com.aliucord.manager.voice.ui.screens.plugins.model.PluginItem
+import com.aliucord.manager.voice.ui.util.paddings.*
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize

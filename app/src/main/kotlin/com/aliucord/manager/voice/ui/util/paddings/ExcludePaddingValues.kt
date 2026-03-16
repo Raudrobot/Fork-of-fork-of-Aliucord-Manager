@@ -1,16 +1,16 @@
-package com.aliucord.manager.ui.util.paddings
+package com.aliucord.manager.voice.ui.util.paddings
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.WindowInsetsSides
 import androidx.compose.runtime.Stable
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.LayoutDirection
-import com.aliucord.manager.ui.util.paddings.PaddingValuesSides.Companion.Bottom
-import com.aliucord.manager.ui.util.paddings.PaddingValuesSides.Companion.End
-import com.aliucord.manager.ui.util.paddings.PaddingValuesSides.Companion.Left
-import com.aliucord.manager.ui.util.paddings.PaddingValuesSides.Companion.Right
-import com.aliucord.manager.ui.util.paddings.PaddingValuesSides.Companion.Start
-import com.aliucord.manager.ui.util.paddings.PaddingValuesSides.Companion.Top
+import com.aliucord.manager.voice.ui.util.paddings.PaddingValuesSides.Companion.Bottom
+import com.aliucord.manager.voice.ui.util.paddings.PaddingValuesSides.Companion.End
+import com.aliucord.manager.voice.ui.util.paddings.PaddingValuesSides.Companion.Left
+import com.aliucord.manager.voice.ui.util.paddings.PaddingValuesSides.Companion.Right
+import com.aliucord.manager.voice.ui.util.paddings.PaddingValuesSides.Companion.Start
+import com.aliucord.manager.voice.ui.util.paddings.PaddingValuesSides.Companion.Top
 
 /**
  * Remove particular side values from [PaddingValues].

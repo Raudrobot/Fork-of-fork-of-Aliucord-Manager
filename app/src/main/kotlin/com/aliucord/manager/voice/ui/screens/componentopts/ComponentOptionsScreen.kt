@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.componentopts
+package com.aliucord.manager.voice.ui.screens.componentopts
 
 import android.os.Parcelable
 import androidx.compose.foundation.layout.*
@@ -13,11 +13,11 @@ import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.koin.koinScreenModel
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.screens.componentopts.components.*
-import com.aliucord.manager.ui.util.ScreenWithResult
-import com.aliucord.manager.ui.util.paddings.*
-import com.aliucord.manager.util.back
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.screens.componentopts.components.*
+import com.aliucord.manager.voice.ui.util.ScreenWithResult
+import com.aliucord.manager.voice.ui.util.paddings.*
+import com.aliucord.manager.voice.util.back
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 import kotlinx.coroutines.Dispatchers

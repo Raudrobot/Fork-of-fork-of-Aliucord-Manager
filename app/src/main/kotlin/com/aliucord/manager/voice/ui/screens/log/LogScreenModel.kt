@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.log
+package com.aliucord.manager.voice.ui.screens.log
 
 import android.app.Application
 import android.content.Intent
@@ -7,11 +7,11 @@ import androidx.compose.runtime.*
 import androidx.core.content.FileProvider
 import cafe.adriel.voyager.core.model.ScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
-import com.aliucord.manager.BuildConfig
-import com.aliucord.manager.R
-import com.aliucord.manager.manager.InstallLogData
-import com.aliucord.manager.manager.InstallLogManager
-import com.aliucord.manager.util.*
+import com.aliucord.manager.voice.BuildConfig
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.manager.InstallLogData
+import com.aliucord.manager.voice.manager.InstallLogManager
+import com.aliucord.manager.voice.util.*
 
 class LogScreenModel(
     private val installId: String,

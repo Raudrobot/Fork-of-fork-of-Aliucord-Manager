@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.permissions
+package com.aliucord.manager.voice.ui.screens.permissions
 
 import android.os.Build
 import android.os.Parcelable
@@ -20,16 +20,16 @@ import cafe.adriel.voyager.core.stack.StackEvent
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
 import cafe.adriel.voyager.transitions.ScreenTransition
-import com.aliucord.manager.R
-import com.aliucord.manager.manager.InstallerSetting
-import com.aliucord.manager.ui.components.TextDivider
-import com.aliucord.manager.ui.components.settings.SettingsItem
-import com.aliucord.manager.ui.screens.home.HomeScreen
-import com.aliucord.manager.ui.screens.permissions.components.PermissionButton
-import com.aliucord.manager.ui.screens.permissions.components.PermissionsAppBar
-import com.aliucord.manager.ui.screens.settings.components.InstallersDialog
-import com.aliucord.manager.ui.util.paddings.*
-import com.aliucord.manager.ui.util.spacedByLastAtBottom
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.manager.InstallerSetting
+import com.aliucord.manager.voice.ui.components.TextDivider
+import com.aliucord.manager.voice.ui.components.settings.SettingsItem
+import com.aliucord.manager.voice.ui.screens.home.HomeScreen
+import com.aliucord.manager.voice.ui.screens.permissions.components.PermissionButton
+import com.aliucord.manager.voice.ui.screens.permissions.components.PermissionsAppBar
+import com.aliucord.manager.voice.ui.screens.settings.components.InstallersDialog
+import com.aliucord.manager.voice.ui.util.paddings.*
+import com.aliucord.manager.voice.ui.util.spacedByLastAtBottom
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
 import org.koin.compose.viewmodel.koinActivityViewModel

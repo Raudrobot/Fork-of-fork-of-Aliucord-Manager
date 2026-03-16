@@ -1,15 +1,15 @@
-package com.aliucord.manager.patcher.steps.download
+package com.aliucord.manager.voice.patcher.steps.download
 
 import android.app.Application
 import android.os.Build
 import android.os.storage.StorageManager
 import androidx.core.content.getSystemService
-import com.aliucord.manager.R
-import com.aliucord.manager.manager.PathManager
-import com.aliucord.manager.patcher.StepRunner
-import com.aliucord.manager.patcher.steps.StepGroup
-import com.aliucord.manager.patcher.steps.base.Step
-import com.aliucord.manager.patcher.util.InsufficientStorageException
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.manager.PathManager
+import com.aliucord.manager.voice.patcher.StepRunner
+import com.aliucord.manager.voice.patcher.steps.StepGroup
+import com.aliucord.manager.voice.patcher.steps.base.Step
+import com.aliucord.manager.voice.patcher.util.InsufficientStorageException
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
 import java.io.File

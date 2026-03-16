@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.patchopts
+package com.aliucord.manager.voice.ui.screens.patchopts
 
 import android.content.Context
 import android.content.pm.PackageManager.NameNotFoundException
@@ -6,11 +6,11 @@ import androidx.compose.runtime.*
 import cafe.adriel.voyager.core.model.ScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
 import cafe.adriel.voyager.navigator.Navigator
-import com.aliucord.manager.manager.PreferencesManager
-import com.aliucord.manager.ui.screens.componentopts.ComponentOptionsScreen
-import com.aliucord.manager.ui.screens.componentopts.PatchComponent
-import com.aliucord.manager.ui.util.pushForResult
-import com.aliucord.manager.util.*
+import com.aliucord.manager.voice.manager.PreferencesManager
+import com.aliucord.manager.voice.ui.screens.componentopts.ComponentOptionsScreen
+import com.aliucord.manager.voice.ui.screens.componentopts.PatchComponent
+import com.aliucord.manager.voice.ui.util.pushForResult
+import com.aliucord.manager.voice.util.*
 import kotlinx.coroutines.launch
 
 class PatchOptionsModel(

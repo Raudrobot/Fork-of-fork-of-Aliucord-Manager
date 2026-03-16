@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.iconopts
+package com.aliucord.manager.voice.ui.screens.iconopts
 
 import androidx.compose.runtime.Immutable
 

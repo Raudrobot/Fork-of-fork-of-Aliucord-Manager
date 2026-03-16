@@ -1,6 +1,6 @@
-package com.aliucord.manager.ui.screens.patching
+package com.aliucord.manager.voice.ui.screens.patching
 
-import com.aliucord.manager.ui.screens.patching.PatchingScreenState.CloseScreen
+import com.aliucord.manager.voice.ui.screens.patching.PatchingScreenState.CloseScreen
 
 sealed interface PatchingScreenState {
     data object Working : PatchingScreenState

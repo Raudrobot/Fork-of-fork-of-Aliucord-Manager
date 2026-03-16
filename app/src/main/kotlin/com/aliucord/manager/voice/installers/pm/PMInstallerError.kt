@@ -1,10 +1,10 @@
-package com.aliucord.manager.installers.pm
+package com.aliucord.manager.voice.installers.pm
 
 import android.content.Context
 import android.content.pm.PackageInstaller
 import android.os.Parcelable
-import com.aliucord.manager.R
-import com.aliucord.manager.installers.InstallerResult
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.installers.InstallerResult
 import kotlinx.parcelize.Parcelize
 
 /**

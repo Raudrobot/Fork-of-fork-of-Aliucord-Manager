@@ -1,11 +1,11 @@
-package com.aliucord.manager.installers.pm
+package com.aliucord.manager.voice.installers.pm
 
 import android.app.Application
 import android.content.pm.PackageInstaller
 import android.content.pm.PackageManager
 import android.util.Log
-import com.aliucord.manager.BuildConfig
-import com.aliucord.manager.installers.Installer
+import com.aliucord.manager.voice.BuildConfig
+import com.aliucord.manager.voice.installers.Installer
 import kotlinx.coroutines.suspendCancellableCoroutine
 import java.io.File
 import kotlin.coroutines.resume

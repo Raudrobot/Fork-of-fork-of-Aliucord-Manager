@@ -1,10 +1,10 @@
-package com.aliucord.manager.manager
+package com.aliucord.manager.voice.manager
 
 import android.content.Context
 import android.content.pm.PackageManager
 import android.os.Build
-import com.aliucord.manager.R
-import com.aliucord.manager.util.showToast
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.util.showToast
 import com.rosan.dhizuku.api.Dhizuku
 import com.rosan.dhizuku.api.DhizukuRequestPermissionListener
 import kotlinx.coroutines.suspendCancellableCoroutine

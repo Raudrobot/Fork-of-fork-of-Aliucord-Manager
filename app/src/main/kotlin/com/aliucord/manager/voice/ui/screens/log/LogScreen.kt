@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.log
+package com.aliucord.manager.voice.ui.screens.log
 
 import android.os.Parcelable
 import androidx.compose.foundation.layout.*
@@ -13,12 +13,12 @@ import cafe.adriel.voyager.core.screen.ScreenKey
 import cafe.adriel.voyager.koin.koinScreenModel
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import com.aliucord.manager.R
-import com.aliucord.manager.manager.InstallLogData
-import com.aliucord.manager.ui.components.Label
-import com.aliucord.manager.ui.screens.log.components.LogAppBar
-import com.aliucord.manager.ui.screens.log.components.LogTextArea
-import com.aliucord.manager.util.back
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.manager.InstallLogData
+import com.aliucord.manager.voice.ui.components.Label
+import com.aliucord.manager.voice.ui.screens.log.components.LogAppBar
+import com.aliucord.manager.voice.ui.screens.log.components.LogTextArea
+import com.aliucord.manager.voice.util.back
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
 import org.koin.core.parameter.parametersOf

@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.home.components
+package com.aliucord.manager.voice.ui.screens.home.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.basicMarquee
@@ -15,10 +15,10 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.components.SegmentedButton
-import com.aliucord.manager.ui.components.VersionDisplay
-import com.aliucord.manager.ui.screens.home.InstallData
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.components.SegmentedButton
+import com.aliucord.manager.voice.ui.components.VersionDisplay
+import com.aliucord.manager.voice.ui.screens.home.InstallData
 
 @Composable
 fun InstalledItemCard(

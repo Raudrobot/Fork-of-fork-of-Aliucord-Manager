@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.plugins.model
+package com.aliucord.manager.voice.ui.screens.plugins.model
 
 import androidx.compose.runtime.*
 

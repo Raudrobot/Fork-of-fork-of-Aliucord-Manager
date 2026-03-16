@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.componentopts.components
+package com.aliucord.manager.voice.ui.screens.componentopts.components
 
 import android.text.format.DateUtils
 import androidx.compose.foundation.clickable
@@ -16,8 +16,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.dp
-import com.aliucord.manager.R
-import com.aliucord.manager.network.utils.SemVer
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.network.utils.SemVer
 import kotlin.time.Instant
 
 @Composable

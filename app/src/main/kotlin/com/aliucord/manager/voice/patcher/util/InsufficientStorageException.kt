@@ -1,4 +1,4 @@
-package com.aliucord.manager.patcher.util
+package com.aliucord.manager.voice.patcher.util
 
 /**
  * Used to indicate that pre-allocating storage space via [android.os.storage.StorageManager.allocateBytes]

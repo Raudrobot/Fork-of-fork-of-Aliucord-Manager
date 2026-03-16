@@ -1,8 +1,8 @@
-package com.aliucord.manager.network.services
+package com.aliucord.manager.voice.network.services
 
-import com.aliucord.manager.network.models.BuildInfo
-import com.aliucord.manager.network.models.GithubRelease
-import com.aliucord.manager.network.utils.ApiResponse
+import com.aliucord.manager.voice.network.models.BuildInfo
+import com.aliucord.manager.voice.network.models.GithubRelease
+import com.aliucord.manager.voice.network.utils.ApiResponse
 import io.ktor.client.request.header
 import io.ktor.client.request.url
 import io.ktor.http.HttpHeaders

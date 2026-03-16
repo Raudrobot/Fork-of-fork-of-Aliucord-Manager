@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.components.dialogs
+package com.aliucord.manager.voice.ui.components.dialogs
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.interaction.MutableInteractionSource
@@ -13,7 +13,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.DialogProperties
-import com.aliucord.manager.R
+import com.aliucord.manager.voice.R
 
 @Composable
 fun NetworkWarningDialog(

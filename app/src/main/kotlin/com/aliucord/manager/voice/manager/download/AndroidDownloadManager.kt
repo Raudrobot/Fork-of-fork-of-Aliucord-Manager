@@ -1,4 +1,4 @@
-package com.aliucord.manager.manager.download
+package com.aliucord.manager.voice.manager.download
 
 import android.app.Application
 import android.app.DownloadManager
@@ -7,10 +7,10 @@ import android.database.Cursor
 import android.net.Uri
 import androidx.core.content.getSystemService
 import androidx.core.net.toUri
-import com.aliucord.manager.BuildConfig
-import com.aliucord.manager.R
-import com.aliucord.manager.manager.download.IDownloadManager.ProgressListener
-import com.aliucord.manager.manager.download.IDownloadManager.Result
+import com.aliucord.manager.voice.BuildConfig
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.manager.download.IDownloadManager.ProgressListener
+import com.aliucord.manager.voice.manager.download.IDownloadManager.Result
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.delay
 import java.io.File

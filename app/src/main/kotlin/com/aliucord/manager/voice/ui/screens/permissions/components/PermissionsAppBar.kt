@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.permissions.components
+package com.aliucord.manager.voice.ui.screens.permissions.components
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
@@ -8,8 +8,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.navigator.LocalNavigator
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.screens.settings.SettingsScreen
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.screens.settings.SettingsScreen
 
 @Composable
 fun PermissionsAppBar() {

@@ -38,7 +38,7 @@
 }
 
 # Keep class names of patching steps since they're used via reflection
--keepnames class com.aliucord.manager.patcher.steps.**
+-keepnames class com.aliucord.manager.voice.patcher.steps.**
 
 # Repackage classes into the top-level.
 -repackageclasses

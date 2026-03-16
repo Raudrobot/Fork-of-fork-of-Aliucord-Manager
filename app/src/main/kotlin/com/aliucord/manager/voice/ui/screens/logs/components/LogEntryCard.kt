@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.logs.components
+package com.aliucord.manager.voice.ui.screens.logs.components
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -17,11 +17,11 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.aliucord.manager.R
-import com.aliucord.manager.patcher.steps.base.StepState
-import com.aliucord.manager.ui.screens.logs.LogEntry
-import com.aliucord.manager.ui.screens.patching.components.StepStateIcon
-import com.aliucord.manager.ui.screens.patching.components.TimeElapsed
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.patcher.steps.base.StepState
+import com.aliucord.manager.voice.ui.screens.logs.LogEntry
+import com.aliucord.manager.voice.ui.screens.patching.components.StepStateIcon
+import com.aliucord.manager.voice.ui.screens.patching.components.TimeElapsed
 
 @Composable
 fun LogEntryCard(

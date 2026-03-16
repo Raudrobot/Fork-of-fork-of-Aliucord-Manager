@@ -3,7 +3,7 @@
  * Licensed under the Open Software License version 3.0
  */
 
-package com.aliucord.manager.ui.screens.plugins.components
+package com.aliucord.manager.voice.ui.screens.plugins.components
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -19,8 +19,8 @@ import androidx.compose.ui.text.*
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.screens.plugins.model.PluginItem
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.screens.plugins.model.PluginItem
 
 @Composable
 fun PluginCard(

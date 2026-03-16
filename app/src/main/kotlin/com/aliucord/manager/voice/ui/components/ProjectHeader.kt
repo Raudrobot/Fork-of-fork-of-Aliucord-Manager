@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.components
+package com.aliucord.manager.voice.ui.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -12,8 +12,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.aliucord.manager.BuildConfig
-import com.aliucord.manager.R
+import com.aliucord.manager.voice.BuildConfig
+import com.aliucord.manager.voice.R
 
 @Composable
 fun ProjectHeader(modifier: Modifier = Modifier) {

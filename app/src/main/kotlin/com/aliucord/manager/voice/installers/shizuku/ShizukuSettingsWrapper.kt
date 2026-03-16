@@ -1,10 +1,10 @@
-package com.aliucord.manager.installers.shizuku
+package com.aliucord.manager.voice.installers.shizuku
 
 import android.content.*
 import android.os.*
 import android.provider.Settings
 import androidx.annotation.RequiresApi
-import com.aliucord.manager.util.HiddenAPI
+import com.aliucord.manager.voice.util.HiddenAPI
 import rikka.shizuku.Shizuku
 import rikka.shizuku.ShizukuBinderWrapper
 

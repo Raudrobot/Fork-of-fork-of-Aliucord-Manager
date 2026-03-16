@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.componentopts.components
+package com.aliucord.manager.voice.ui.screens.componentopts.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -8,9 +8,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.components.BackButton
-import com.aliucord.manager.ui.screens.componentopts.PatchComponent
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.components.BackButton
+import com.aliucord.manager.voice.ui.screens.componentopts.PatchComponent
 
 @Composable
 fun ComponentOptionsAppBar(

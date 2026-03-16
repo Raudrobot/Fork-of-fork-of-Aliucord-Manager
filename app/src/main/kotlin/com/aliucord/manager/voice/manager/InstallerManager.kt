@@ -1,15 +1,15 @@
-package com.aliucord.manager.manager
+package com.aliucord.manager.voice.manager
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import com.aliucord.manager.R
-import com.aliucord.manager.installers.Installer
-import com.aliucord.manager.installers.dhizuku.DhizukuInstaller
-import com.aliucord.manager.installers.intent.IntentInstaller
-import com.aliucord.manager.installers.pm.PMInstaller
-import com.aliucord.manager.installers.root.RootInstaller
-import com.aliucord.manager.installers.shizuku.ShizukuInstaller
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.installers.Installer
+import com.aliucord.manager.voice.installers.dhizuku.DhizukuInstaller
+import com.aliucord.manager.voice.installers.intent.IntentInstaller
+import com.aliucord.manager.voice.installers.pm.PMInstaller
+import com.aliucord.manager.voice.installers.root.RootInstaller
+import com.aliucord.manager.voice.installers.shizuku.ShizukuInstaller
 import org.koin.core.annotation.KoinInternalApi
 import org.koin.core.component.KoinComponent
 import kotlin.reflect.KClass

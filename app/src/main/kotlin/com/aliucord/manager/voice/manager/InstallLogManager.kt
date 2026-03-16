@@ -1,4 +1,4 @@
-package com.aliucord.manager.manager
+package com.aliucord.manager.voice.manager
 
 import android.annotation.SuppressLint
 import android.app.Application
@@ -7,9 +7,9 @@ import android.os.storage.StorageManager
 import android.util.Log
 import androidx.compose.runtime.Immutable
 import androidx.core.content.getSystemService
-import com.aliucord.manager.BuildConfig
-import com.aliucord.manager.ui.screens.patchopts.PatchOptions
-import com.aliucord.manager.util.*
+import com.aliucord.manager.voice.BuildConfig
+import com.aliucord.manager.voice.ui.screens.patchopts.PatchOptions
+import com.aliucord.manager.voice.util.*
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.decodeFromStream

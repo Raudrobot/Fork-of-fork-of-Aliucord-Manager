@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.patchopts
+package com.aliucord.manager.voice.ui.screens.patchopts
 
 import android.os.Parcelable
 import androidx.compose.foundation.*
@@ -21,16 +21,16 @@ import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.koin.koinScreenModel
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.components.*
-import com.aliucord.manager.ui.screens.componentopts.PatchComponent
-import com.aliucord.manager.ui.screens.iconopts.*
-import com.aliucord.manager.ui.screens.patching.PatchingScreen
-import com.aliucord.manager.ui.screens.patchopts.components.PackageNameStateLabel
-import com.aliucord.manager.ui.screens.patchopts.components.PatchOptionsAppBar
-import com.aliucord.manager.ui.screens.patchopts.components.options.*
-import com.aliucord.manager.ui.util.spacedByLastAtBottom
-import com.aliucord.manager.util.showToast
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.components.*
+import com.aliucord.manager.voice.ui.screens.componentopts.PatchComponent
+import com.aliucord.manager.voice.ui.screens.iconopts.*
+import com.aliucord.manager.voice.ui.screens.patching.PatchingScreen
+import com.aliucord.manager.voice.ui.screens.patchopts.components.PackageNameStateLabel
+import com.aliucord.manager.voice.ui.screens.patchopts.components.PatchOptionsAppBar
+import com.aliucord.manager.voice.ui.screens.patchopts.components.options.*
+import com.aliucord.manager.voice.ui.util.spacedByLastAtBottom
+import com.aliucord.manager.voice.util.showToast
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
 import org.koin.core.parameter.parametersOf

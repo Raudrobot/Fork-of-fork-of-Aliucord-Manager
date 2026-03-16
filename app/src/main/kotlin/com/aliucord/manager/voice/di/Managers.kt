@@ -1,7 +1,7 @@
-package com.aliucord.manager.di
+package com.aliucord.manager.voice.di
 
 import android.content.Context
-import com.aliucord.manager.manager.PreferencesManager
+import com.aliucord.manager.voice.manager.PreferencesManager
 import org.koin.core.scope.Scope
 
 fun Scope.providePreferences(): PreferencesManager {

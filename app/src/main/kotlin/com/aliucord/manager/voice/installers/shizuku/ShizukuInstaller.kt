@@ -1,12 +1,12 @@
-package com.aliucord.manager.installers.shizuku
+package com.aliucord.manager.voice.installers.shizuku
 
 import android.content.Context
 import android.content.pm.*
-import com.aliucord.manager.installers.Installer
-import com.aliucord.manager.installers.InstallerResult
-import com.aliucord.manager.installers.pm.PMUtils
-import com.aliucord.manager.manager.ShizukuManager
-import com.aliucord.manager.util.HiddenAPI
+import com.aliucord.manager.voice.installers.Installer
+import com.aliucord.manager.voice.installers.InstallerResult
+import com.aliucord.manager.voice.installers.pm.PMUtils
+import com.aliucord.manager.voice.manager.ShizukuManager
+import com.aliucord.manager.voice.util.HiddenAPI
 import dev.rikka.tools.refine.Refine
 import kotlinx.coroutines.suspendCancellableCoroutine
 import rikka.shizuku.ShizukuBinderWrapper

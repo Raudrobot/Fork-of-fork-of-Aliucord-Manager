@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.permissions
+package com.aliucord.manager.voice.ui.screens.permissions
 
 import android.Manifest
 import android.app.Activity
@@ -14,11 +14,11 @@ import androidx.compose.runtime.*
 import androidx.core.net.toUri
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.aliucord.manager.BuildConfig
-import com.aliucord.manager.di.ActivityProvider
-import com.aliucord.manager.manager.InstallerSetting
-import com.aliucord.manager.manager.PreferencesManager
-import com.aliucord.manager.util.*
+import com.aliucord.manager.voice.BuildConfig
+import com.aliucord.manager.voice.di.ActivityProvider
+import com.aliucord.manager.voice.manager.InstallerSetting
+import com.aliucord.manager.voice.manager.PreferencesManager
+import com.aliucord.manager.voice.util.*
 import java.util.UUID
 
 class PermissionsModel(

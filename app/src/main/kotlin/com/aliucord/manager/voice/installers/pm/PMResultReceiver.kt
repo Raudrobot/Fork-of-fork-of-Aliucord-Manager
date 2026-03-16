@@ -1,11 +1,11 @@
-package com.aliucord.manager.installers.pm
+package com.aliucord.manager.voice.installers.pm
 
 import android.content.*
 import android.content.pm.PackageInstaller
-import com.aliucord.manager.R
-import com.aliucord.manager.installers.InstallerResult
-import com.aliucord.manager.installers.UnknownInstallerError
-import com.aliucord.manager.util.showToast
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.installers.InstallerResult
+import com.aliucord.manager.voice.installers.UnknownInstallerError
+import com.aliucord.manager.voice.util.showToast
 
 /**
  * This receiver is meant to be registered dynamically in combination with [PMIntentReceiver] in order to
@@ -53,8 +53,8 @@ class PMResultReceiver(
     }
 
     companion object {
-        const val ACTION_RECEIVE_INTENT = "com.aliucord.manager.RELAY_PM_INTENT"
-        const val ACTION_RECEIVE_RESULT = "com.aliucord.manager.RELAY_PM_RESULT"
+        const val ACTION_RECEIVE_INTENT = "com.aliucord.manager.voice.RELAY_PM_INTENT"
+        const val ACTION_RECEIVE_RESULT = "com.aliucord.manager.voice.RELAY_PM_RESULT"
         const val EXTRA_RESULT = "installerResult"
         const val EXTRA_SESSION_ID = "sessionId"
 

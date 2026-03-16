@@ -1,4 +1,4 @@
-package com.aliucord.manager.installers
+package com.aliucord.manager.voice.installers
 
 import android.content.Context
 import android.os.Parcelable

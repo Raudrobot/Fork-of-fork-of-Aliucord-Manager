@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.logs
+package com.aliucord.manager.voice.ui.screens.logs
 
 import android.app.Application
 import android.text.format.DateUtils
@@ -6,9 +6,9 @@ import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.mutableStateListOf
 import cafe.adriel.voyager.core.model.ScreenModel
 import cafe.adriel.voyager.core.model.screenModelScope
-import com.aliucord.manager.R
-import com.aliucord.manager.manager.InstallLogManager
-import com.aliucord.manager.util.*
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.manager.InstallLogManager
+import com.aliucord.manager.voice.util.*
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 

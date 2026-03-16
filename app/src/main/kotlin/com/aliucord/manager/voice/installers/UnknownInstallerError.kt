@@ -1,7 +1,7 @@
-package com.aliucord.manager.installers
+package com.aliucord.manager.voice.installers
 
 import android.content.Context
-import com.aliucord.manager.R
+import com.aliucord.manager.voice.R
 import kotlinx.parcelize.Parcelize
 
 @Parcelize

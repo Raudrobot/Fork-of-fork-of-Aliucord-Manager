@@ -1,12 +1,12 @@
-package com.aliucord.manager.ui.previews.screens
+package com.aliucord.manager.voice.ui.previews.screens
 
 import android.content.res.Configuration
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.*
-import com.aliucord.manager.network.utils.SemVer
-import com.aliucord.manager.ui.screens.componentopts.ComponentOptionsScreenContent
-import com.aliucord.manager.ui.screens.componentopts.PatchComponent
-import com.aliucord.manager.ui.theme.ManagerTheme
+import com.aliucord.manager.voice.network.utils.SemVer
+import com.aliucord.manager.voice.ui.screens.componentopts.ComponentOptionsScreenContent
+import com.aliucord.manager.voice.ui.screens.componentopts.PatchComponent
+import com.aliucord.manager.voice.ui.theme.ManagerTheme
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.persistentListOf
 import kotlin.time.Clock

@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.components
+package com.aliucord.manager.voice.ui.components
 
 import android.view.WindowManager
 import androidx.activity.compose.LocalActivity

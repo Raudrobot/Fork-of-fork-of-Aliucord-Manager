@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.logs
+package com.aliucord.manager.voice.ui.screens.logs
 
 import android.os.Parcelable
 import androidx.compose.foundation.layout.*
@@ -14,11 +14,11 @@ import cafe.adriel.voyager.core.screen.ScreenKey
 import cafe.adriel.voyager.koin.koinScreenModel
 import cafe.adriel.voyager.navigator.LocalNavigator
 import cafe.adriel.voyager.navigator.currentOrThrow
-import com.aliucord.manager.ui.screens.log.LogScreen
-import com.aliucord.manager.ui.screens.logs.components.*
-import com.aliucord.manager.ui.screens.logs.components.dialogs.DeleteLogsDialog
-import com.aliucord.manager.ui.util.paddings.PaddingValuesSides
-import com.aliucord.manager.ui.util.paddings.exclude
+import com.aliucord.manager.voice.ui.screens.log.LogScreen
+import com.aliucord.manager.voice.ui.screens.logs.components.*
+import com.aliucord.manager.voice.ui.screens.logs.components.dialogs.DeleteLogsDialog
+import com.aliucord.manager.voice.ui.util.paddings.PaddingValuesSides
+import com.aliucord.manager.voice.ui.util.paddings.exclude
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
 

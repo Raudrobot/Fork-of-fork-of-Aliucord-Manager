@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.util
+package com.aliucord.manager.voice.ui.util
 
 import android.os.Parcelable
 import cafe.adriel.voyager.core.model.ScreenModel

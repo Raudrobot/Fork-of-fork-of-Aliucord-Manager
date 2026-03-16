@@ -1,11 +1,11 @@
-package com.aliucord.manager.ui.previews.screens.about
+package com.aliucord.manager.voice.ui.previews.screens.about
 
 import android.content.res.Configuration
 import androidx.compose.runtime.*
 import androidx.compose.ui.tooling.preview.Preview
-import com.aliucord.manager.ui.screens.about.AboutScreenContent
-import com.aliucord.manager.ui.screens.about.AboutScreenState
-import com.aliucord.manager.ui.theme.ManagerTheme
+import com.aliucord.manager.voice.ui.screens.about.AboutScreenContent
+import com.aliucord.manager.voice.ui.screens.about.AboutScreenState
+import com.aliucord.manager.voice.ui.theme.ManagerTheme
 
 // This preview cannot be properly viewed from an IDE
 

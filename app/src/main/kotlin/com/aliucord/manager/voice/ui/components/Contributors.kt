@@ -3,7 +3,7 @@
  * Licensed under the Open Software License version 3.0
  */
 
-package com.aliucord.manager.ui.components
+package com.aliucord.manager.voice.ui.components
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -17,8 +17,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.unit.dp
 import coil3.compose.SubcomposeAsyncImage
-import com.aliucord.manager.R
-import com.aliucord.manager.network.models.Contributor
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.network.models.Contributor
 import com.valentinilk.shimmer.shimmer
 
 @Composable

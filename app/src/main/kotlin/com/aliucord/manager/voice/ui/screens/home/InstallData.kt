@@ -1,8 +1,8 @@
-package com.aliucord.manager.ui.screens.home
+package com.aliucord.manager.voice.ui.screens.home
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.ui.graphics.painter.BitmapPainter
-import com.aliucord.manager.ui.util.DiscordVersion
+import com.aliucord.manager.voice.ui.util.DiscordVersion
 
 @Immutable
 data class InstallData(

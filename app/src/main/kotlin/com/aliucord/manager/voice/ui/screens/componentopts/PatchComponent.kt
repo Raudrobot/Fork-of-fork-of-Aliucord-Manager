@@ -1,9 +1,9 @@
-package com.aliucord.manager.ui.screens.componentopts
+package com.aliucord.manager.voice.ui.screens.componentopts
 
 import android.os.Parcelable
 import androidx.compose.runtime.Immutable
-import com.aliucord.manager.manager.PathManager
-import com.aliucord.manager.network.utils.SemVer
+import com.aliucord.manager.voice.manager.PathManager
+import com.aliucord.manager.voice.network.utils.SemVer
 import kotlinx.parcelize.Parcelize
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

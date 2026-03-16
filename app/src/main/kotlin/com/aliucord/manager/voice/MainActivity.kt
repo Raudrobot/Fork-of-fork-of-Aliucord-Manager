@@ -3,7 +3,7 @@
  * Licensed under the Open Software License version 3.0
  */
 
-package com.aliucord.manager
+package com.aliucord.manager.voice
 
 import android.R.attr.type
 import android.content.Intent
@@ -22,22 +22,22 @@ import cafe.adriel.voyager.core.annotation.ExperimentalVoyagerApi
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.navigator.*
 import cafe.adriel.voyager.transitions.SlideTransition
-import com.aliucord.manager.MainActivity.Companion.EXTRA_COMPONENT_TYPE
-import com.aliucord.manager.MainActivity.Companion.EXTRA_FILE_PATH
-import com.aliucord.manager.MainActivity.Companion.EXTRA_PACKAGE_NAME
-import com.aliucord.manager.manager.*
-import com.aliucord.manager.network.utils.SemVer
-import com.aliucord.manager.patcher.InstallMetadata
-import com.aliucord.manager.ui.screens.componentopts.PatchComponent
-import com.aliucord.manager.ui.screens.home.HomeScreen
-import com.aliucord.manager.ui.screens.patching.PatchingScreen
-import com.aliucord.manager.ui.screens.patchopts.PatchOptions
-import com.aliucord.manager.ui.screens.permissions.PermissionsModel
-import com.aliucord.manager.ui.screens.permissions.PermissionsScreen
-import com.aliucord.manager.ui.screens.plugins.PluginsScreen
-import com.aliucord.manager.ui.theme.ManagerTheme
-import com.aliucord.manager.ui.widgets.updater.UpdaterDialog
-import com.aliucord.manager.util.*
+import com.aliucord.manager.voice.MainActivity.Companion.EXTRA_COMPONENT_TYPE
+import com.aliucord.manager.voice.MainActivity.Companion.EXTRA_FILE_PATH
+import com.aliucord.manager.voice.MainActivity.Companion.EXTRA_PACKAGE_NAME
+import com.aliucord.manager.voice.manager.*
+import com.aliucord.manager.voice.network.utils.SemVer
+import com.aliucord.manager.voice.patcher.InstallMetadata
+import com.aliucord.manager.voice.ui.screens.componentopts.PatchComponent
+import com.aliucord.manager.voice.ui.screens.home.HomeScreen
+import com.aliucord.manager.voice.ui.screens.patching.PatchingScreen
+import com.aliucord.manager.voice.ui.screens.patchopts.PatchOptions
+import com.aliucord.manager.voice.ui.screens.permissions.PermissionsModel
+import com.aliucord.manager.voice.ui.screens.permissions.PermissionsScreen
+import com.aliucord.manager.voice.ui.screens.plugins.PluginsScreen
+import com.aliucord.manager.voice.ui.theme.ManagerTheme
+import com.aliucord.manager.voice.ui.widgets.updater.UpdaterDialog
+import com.aliucord.manager.voice.util.*
 import com.github.diamondminer88.zip.ZipReader
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -257,14 +257,14 @@ class MainActivity : ComponentActivity() {
          * Required extra data:
          * - [EXTRA_PACKAGE_NAME] The target installation package name.
          */
-        const val INTENT_REINSTALL = "com.aliucord.manager.REINSTALL"
+        const val INTENT_REINSTALL = "com.aliucord.manager.voice.REINSTALL"
 
         /**
          * Opens the plugins page for a specific Aliucord installation.
          * Required extra data:
          * - [EXTRA_PACKAGE_NAME] The target installation package name.
          */
-        const val INTENT_OPEN_PLUGINS = "com.aliucord.manager.OPEN_PLUGINS"
+        const val INTENT_OPEN_PLUGINS = "com.aliucord.manager.voice.OPEN_PLUGINS"
 
         /**
          * Imports a custom component that was pushed to the device.
@@ -272,7 +272,7 @@ class MainActivity : ComponentActivity() {
          * - [EXTRA_COMPONENT_TYPE]: The type of the new component.
          * - [EXTRA_FILE_PATH]: The pushed component's file path under `/data/local/tmp`.
          */
-        const val INTENT_IMPORT_COMPONENT = "com.aliucord.manager.IMPORT_COMPONENT"
+        const val INTENT_IMPORT_COMPONENT = "com.aliucord.manager.voice.IMPORT_COMPONENT"
 
         /**
          * Specifies the target package name for an action.

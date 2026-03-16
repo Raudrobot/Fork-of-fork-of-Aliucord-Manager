@@ -3,7 +3,7 @@
  * Licensed under the Open Software License version 3.0
  */
 
-package com.aliucord.manager.ui.screens.about
+package com.aliucord.manager.voice.ui.screens.about
 
 import android.os.Parcelable
 import androidx.compose.foundation.layout.*
@@ -17,10 +17,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.koin.koinScreenModel
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.components.*
-import com.aliucord.manager.ui.screens.about.components.LeadContributor
-import com.aliucord.manager.ui.util.paddings.*
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.components.*
+import com.aliucord.manager.voice.ui.screens.about.components.LeadContributor
+import com.aliucord.manager.voice.ui.util.paddings.*
 import kotlinx.parcelize.IgnoredOnParcel
 import kotlinx.parcelize.Parcelize
 

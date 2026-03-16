@@ -1,13 +1,13 @@
-package com.aliucord.manager.installers.pm
+package com.aliucord.manager.voice.installers.pm
 
 import android.app.PendingIntent
 import android.content.*
 import android.content.pm.PackageInstaller
 import android.util.Log
 import android.widget.Toast
-import com.aliucord.manager.BuildConfig
-import com.aliucord.manager.installers.InstallerResult
-import com.aliucord.manager.installers.UnknownInstallerError
+import com.aliucord.manager.voice.BuildConfig
+import com.aliucord.manager.voice.installers.InstallerResult
+import com.aliucord.manager.voice.installers.UnknownInstallerError
 
 /**
  * This class is used as a callback receiver for [PackageInstaller] events,

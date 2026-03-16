@@ -25,7 +25,7 @@
 // Adapted from compose-pipette:
 // https://github.com/zt64/compose-pipette/blob/3e9fd958a315dceb142bf30250b4614ecde4e723/sample/src/commonMain/kotlin/dev/zt64/compose/pipette/sample/SampleSlider.kt
 
-package com.aliucord.manager.ui.components
+package com.aliucord.manager.voice.ui.components
 
 import androidx.compose.foundation.*
 import androidx.compose.foundation.interaction.*

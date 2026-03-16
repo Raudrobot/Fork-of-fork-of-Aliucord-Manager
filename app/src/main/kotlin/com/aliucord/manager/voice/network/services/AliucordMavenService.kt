@@ -1,8 +1,8 @@
-package com.aliucord.manager.network.services
+package com.aliucord.manager.voice.network.services
 
-import com.aliucord.manager.BuildConfig
-import com.aliucord.manager.di.cacheControl
-import com.aliucord.manager.network.utils.*
+import com.aliucord.manager.voice.BuildConfig
+import com.aliucord.manager.voice.di.cacheControl
+import com.aliucord.manager.voice.network.utils.*
 import io.ktor.client.request.header
 import io.ktor.client.request.url
 import io.ktor.http.*

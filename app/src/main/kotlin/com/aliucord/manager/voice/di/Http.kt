@@ -1,7 +1,7 @@
-package com.aliucord.manager.di
+package com.aliucord.manager.voice.di
 
 import android.app.Application
-import com.aliucord.manager.BuildConfig
+import com.aliucord.manager.voice.BuildConfig
 import io.ktor.client.HttpClient
 import io.ktor.client.call.HttpClientCall
 import io.ktor.client.engine.okhttp.OkHttp

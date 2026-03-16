@@ -1,4 +1,4 @@
-package com.aliucord.manager.ui.screens.home.components
+package com.aliucord.manager.voice.ui.screens.home.components
 
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.layout.*
@@ -12,8 +12,8 @@ import androidx.compose.ui.graphics.*
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.aliucord.manager.R
-import com.aliucord.manager.ui.util.thenIf
+import com.aliucord.manager.voice.R
+import com.aliucord.manager.voice.ui.util.thenIf
 import com.valentinilk.shimmer.*
 
 private val shimmerTheme = defaultShimmerTheme.copy(
