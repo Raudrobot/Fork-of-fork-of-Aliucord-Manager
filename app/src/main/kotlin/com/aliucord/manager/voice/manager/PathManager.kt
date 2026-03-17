@@ -18,6 +18,11 @@ class PathManager(
     val aliucordDir = Environment.getExternalStorageDirectory().resolve("Aliucord")
 
     /**
+     * The new Manager folder located on external storage.
+     */
+    val managerDir = aliucordDir.resolve("Manager")
+
+    /**
      * The directory in external storage in which plugins are stored by Aliucord.
      */
     val pluginsDir = aliucordDir.resolve("plugins")
@@ -30,45 +35,40 @@ class PathManager(
     /**
      * The old global keystore used for signing APKs stored in external storage.
      */
-    val legacyKeystoreFile = aliucordDir.resolve("ks.keystore")
+    val legacyKeystoreFile = managerDir.resolve("ks.keystore")
 
     /**
      * The new voice library file
      */
-    val sunflowerLibFile = aliucordDir.resolve("sunflower.so")
+    val sunflowerLibFile = managerDir.resolve("sunflower.so")
 
     /**
      * The Aliucord core to bundle with built APKs
      */
-    val bundledCoreFile = aliucordDir.resolve("Aliucord.bundle.zip")
+    val bundledCoreFile = managerDir.resolve("Aliucord.zip")
 
     /**
-     * The new global keystore used for signing APKs stored in Manager's internal storage.
+     * The new global keystore used for signing APKs stored in Manager's external storage.
      */
-    val keystoreFile = context.filesDir.resolve("aliucord.keystore")
+    val keystoreFile = managerDir.resolve("aliucord.keystore")
 
     /**
-     * The internal directory used for downloading components related to patching, and
+     * The external directory used for downloading components related to patching, and
      * running the patching process itself.
-     *
-     * This should not be a cache dir provided by Android, since it will be wiped when
-     * the device is low on storage, and result in a failed patching process.
      */
-    val patchingDir = context.filesDir.resolve("patching")
+    val patchingDir = managerDir.resolve("patching")
 
     /**
-     * The internal app directory uses for downloads that should not be wiped,
+     * The external app directory uses for downloads that should not be wiped,
      * to be used during the patching process. When the process completes, then this
-     * is to be moved to the cache dir, to allow Android to wipe the downloads when
-     * low on storage.
+     * is to be moved to the cache dir.
      */
     val patchingDownloadDir = patchingDir.resolve("downloads")
 
     /**
      * Used as a secondary location for downloads when not currently patching.
-     * This allows Android to clear the download cache when low on storage.
      */
-    val cacheDownloadDir = context.cacheDir.resolve("downloads")
+    val cacheDownloadDir = managerDir.resolve("cache/downloads")
 
     /**
      * A permanent location used for storing custom patching components.
@@ -98,6 +98,17 @@ class PathManager(
      * The APK that is worked on during the patching process.
      */
     val patchedApk = patchingWorkingDir.resolve("patched.apk")
+
+    init {
+        // Ensure the base directories exist on the SD card
+        try {
+            if (!managerDir.exists()) managerDir.mkdirs()
+            if (!patchingDir.exists()) patchingDir.mkdirs()
+            if (!managerDir.resolve("cache").exists()) managerDir.resolve("cache").mkdirs()
+        } catch (e: Exception) {
+            // Ignored; if permissions are missing on Android 11+, they will be requested later.
+        }
+    }
 
     /**
      * Delete all the cache dirs and recreate them.
@@ -152,3 +163,4 @@ class PathManager(
         .resolve("kotlin-stdlib")
         .resolve("$version.dex")
 }
+
